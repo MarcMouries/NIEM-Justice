@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>marc.mouries</sys_created_by>
+        <sys_created_on>2022-09-08 17:20:18</sys_created_on>
+        <sys_id>638f4fbd97f9dd1081dd33271153afe0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_niem_j_rapsheet.sn_niem_j.rapsheet_user</sys_name>
+        <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_security_acl display_value="sn_niem_j_rapsheet">2b8f4fbd97f9dd1081dd33271153afdc</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_638f4fbd97f9dd1081dd33271153afe0</sys_update_name>
+        <sys_updated_by>marc.mouries</sys_updated_by>
+        <sys_updated_on>2022-09-08 17:20:18</sys_updated_on>
+        <sys_user_role display_value="sn_niem_j.rapsheet_user" name="sn_niem_j.rapsheet_user">a38f8bbd97f9dd1081dd33271153afb5</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
