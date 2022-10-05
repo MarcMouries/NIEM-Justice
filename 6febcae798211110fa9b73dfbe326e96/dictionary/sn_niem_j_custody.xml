@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e82cd41a971e115081dd33271153afce" label="Chain of Custody" max_length="40" name="sn_niem_j_custody" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Date/Time" max_length="40" name="date_time" type="calendar_date_time"/>
+        <element attributes="encode_utf8=false" label="Property" max_length="32" name="property" reference="sn_niem_j_property" type="reference"/>
+        <element attributes="encode_utf8=false" label="Received By" max_length="32" name="received_by" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Received From" max_length="32" name="received_from" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="property"/>
+        </index>
+        <index name="index2">
+            <element name="received_by"/>
+        </index>
+        <index name="index3">
+            <element name="received_from"/>
+        </index>
+    </element>
+</database>

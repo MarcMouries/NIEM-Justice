@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>engine_size</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-04 16:35:14</sys_created_on>
+        <sys_id>f88e305e9712515081dd33271153af59</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>engine_size</sys_name>
+        <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_update_name>sys_ui_policy_action_f88e305e9712515081dd33271153af59</sys_update_name>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-04 16:35:14</sys_updated_on>
+        <table>sn_niem_j_transport</table>
+        <ui_policy display_value="Vessel Manadatory Fields">2a5ef81e9712515081dd33271153af74</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</application>
+        <file_path/>
+        <instance_id>452b90e0db6919908aea21c40596198f</instance_id>
+        <instance_name>deamosdemo</instance_name>
+        <name>sys_ui_policy_action_f88e305e9712515081dd33271153af59</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>engine_size</field><mandatory>true</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>steven.ly</sys_created_by><sys_created_on>2022-10-04 16:35:14</sys_created_on><sys_id>f88e305e9712515081dd33271153af59</sys_id><sys_mod_count>0</sys_mod_count><sys_name>engine_size</sys_name><sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package><sys_policy/><sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope><sys_update_name>sys_ui_policy_action_f88e305e9712515081dd33271153af59</sys_update_name><sys_updated_by>steven.ly</sys_updated_by><sys_updated_on>2022-10-04 16:35:14</sys_updated_on><table>sn_niem_j_transport</table><ui_policy display_value="Vessel Manadatory Fields">2a5ef81e9712515081dd33271153af74</ui_policy><visible>true</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-1905936234</payload_hash>
+        <record_name>engine_size</record_name>
+        <reverted_from/>
+        <source>aa320873472dd91024e32782846d4309</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-04 16:35:14</sys_created_on>
+        <sys_id>099e705e9712515081dd33271153af67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183a3d9f88e0000001</sys_recorded_at>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-04 16:35:14</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>419e705e6a1251501adb4998cf388067</update_guid>
+        <update_guid_history>419e705e6a1251501adb4998cf388067:-1905936234</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-04 16:56:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>28f48ebd36d94878a82c2f58fe3c0e84</sys_id>
+        <sys_metadata>f88e305e9712515081dd33271153af59</sys_metadata>
+        <sys_name>engine_size</sys_name>
+        <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+        <sys_parent display_value="Vessel Manadatory Fields">2a5ef81e9712515081dd33271153af74</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_scope_delete display_value="">4587fa99cc9544b09fbf217996537240</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_f88e305e9712515081dd33271153af59</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_f88e305e9712515081dd33271153af59">099e705e9712515081dd33271153af67</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

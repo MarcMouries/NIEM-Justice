@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="270f545e971e115081dd33271153af10" sys_domain="global" table="sn_niem_j_drug" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-04 14:17:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b30f545e971e115081dd33271153af4d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_niem_j_drug" name="sn_niem_j_drug" sys_domain="global" view="Default view">270f545e971e115081dd33271153af10</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_j_drug" sys_domain="global" view="Default view">770f545e971e115081dd33271153af46</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-10-04 14:17:32</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-04 14:17:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bf0f545e971e115081dd33271153af18</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_niem_j_drug" name="sn_niem_j_drug" sys_domain="global" view="Default view">270f545e971e115081dd33271153af10</sys_ui_form>
+            <sys_ui_section caption="Evidence Details" display_value="Evidence Details" name="sn_niem_j_drug" sys_domain="global" view="Default view">670f545e971e115081dd33271153af13</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-10-04 14:17:31</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-04 14:17:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f70f545e971e115081dd33271153af42</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_niem_j_drug" name="sn_niem_j_drug" sys_domain="global" view="Default view">270f545e971e115081dd33271153af10</sys_ui_form>
+            <sys_ui_section caption="Attributes" display_value="Attributes" name="sn_niem_j_drug" sys_domain="global" view="Default view">330f545e971e115081dd33271153af2d</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-10-04 14:17:31</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-04 14:28:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>50816452975e115081dd33271153af23</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_niem_j_drug" name="sn_niem_j_drug" sys_domain="global" view="Default view">270f545e971e115081dd33271153af10</sys_ui_form>
+            <sys_ui_section caption="Contact Information" display_value="Contact Information" name="sn_niem_j_drug" sys_domain="global" view="Default view">d8816452975e115081dd33271153af20</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-10-04 14:28:57</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-04 14:17:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bb0f545e971e115081dd33271153af2c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_niem_j_drug" name="sn_niem_j_drug" sys_domain="global" view="Default view">270f545e971e115081dd33271153af10</sys_ui_form>
+            <sys_ui_section caption="Related Records" display_value="Related Records" name="sn_niem_j_drug" sys_domain="global" view="Default view">7b0f545e971e115081dd33271153af19</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-10-04 14:28:57</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-04 14:17:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ff0f545e971e115081dd33271153af45</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_niem_j_drug" name="sn_niem_j_drug" sys_domain="global" view="Default view">270f545e971e115081dd33271153af10</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="sn_niem_j_drug" sys_domain="global" view="Default view">7f0f545e971e115081dd33271153af42</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-10-04 14:28:57</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>sn_niem_j_drug</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-04 14:17:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>270f545e971e115081dd33271153af10</sys_id>
+            <sys_name>sn_niem_j_drug</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+            <sys_update_name>sys_ui_form_sections_270f545e971e115081dd33271153af10</sys_update_name>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

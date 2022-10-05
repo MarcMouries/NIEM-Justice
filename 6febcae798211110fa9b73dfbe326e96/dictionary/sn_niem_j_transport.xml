@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1459a45e975e115081dd33271153affc" extends="sn_niem_j_property" label="Transport" max_length="40" name="sn_niem_j_transport" type="collection">
+        <element label="Airframe Hours" max_length="40" name="airframe_hours" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Air Worthiness Certificate" max_length="40" name="air_worthiness_certificate" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Coast Guard ID" max_length="40" name="coast_guard" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Color" max_length="40" name="color" type="string"/>
+        <element label="Damages Present" max_length="40" name="damages_present" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Damage Description" max_length="4000" name="damage_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Drive Train" max_length="40" name="drive_train" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Front Wheel Drive (FWD)" sequence="0" value="fwd"/>
+                <element inactive_on_update="false" label="Rear Wheel Drive (RWD)" sequence="1" value="rwd"/>
+                <element inactive_on_update="false" label="All Wheel Drive (AWD)" sequence="2" value="awd"/>
+            </choice>
+        </element>
+        <element choice="1" label="No. of Engines" max_length="40" name="engines" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="3" value="4"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Engine Size" max_length="40" name="engine_size" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="2hp – 10hp" sequence="0" value="2hp – 10hp"/>
+                <element inactive_on_update="false" label="5hp – 15hp" sequence="1" value="5hp – 15hp"/>
+                <element inactive_on_update="false" label="9hp – 20hp" sequence="2" value="9hp – 20hp"/>
+                <element inactive_on_update="false" label="20hp – 40hp" sequence="3" value="20hp – 40hp"/>
+                <element inactive_on_update="false" label="40hp – 75hp" sequence="4" value="40hp – 75hp"/>
+                <element inactive_on_update="false" label="150hp – 200hp" sequence="5" value="150hp – 200hp"/>
+                <element inactive_on_update="false" label="90hp – 140hp" sequence="6" value="90hp – 140hp"/>
+                <element inactive_on_update="false" label="200hp - 250hp" sequence="7" value="200hp - 250hp"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Engine Type" max_length="40" name="engine_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Gas" sequence="0" value="Gas"/>
+                <element inactive_on_update="false" label="Diesel" sequence="1" value="Diesel"/>
+                <element inactive_on_update="false" label="Electric" sequence="2" value="Electric"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Hull Type" max_length="40" name="hull_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Flat-Bottom" value="flat"/>
+                <element inactive_on_update="false" label="Multi-Hulled" value="multi"/>
+                <element inactive_on_update="false" label="Round-Bottom" value="round"/>
+                <element inactive_on_update="false" label="V-Shaped" value="v-shaped"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="License Plate" max_length="40" name="license_plate" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Log Books" max_length="40" name="log_books" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Make" max_length="40" name="make" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Model" max_length="40" name="model" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Mounting Type" max_length="40" name="mounting_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Transom" sequence="0" value="Transom"/>
+                <element inactive_on_update="false" label="Engine" sequence="1" value="Engine"/>
+                <element inactive_on_update="false" label="Bow" sequence="2" value="Bow"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Odometer" max_length="40" name="odometer" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Tail Number" max_length="40" name="tail_number" type="string"/>
+        <element label="Trailer Included" max_length="40" name="trailer_included" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Trailer License Plate" max_length="40" name="trailer_license_plate" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Transport Type" max_length="40" name="transport_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Vehicle" sequence="0" value="Vehicle"/>
+                <element inactive_on_update="false" label="Vessel" sequence="1" value="Vessel"/>
+                <element inactive_on_update="false" label="Aircraft" sequence="2" value="Aircraft"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Vehicle Type" max_length="40" name="vehicle_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Coupe" sequence="0" value="Coupe"/>
+                <element inactive_on_update="false" label="Sedan" sequence="1" value="Sedan"/>
+                <element inactive_on_update="false" label="SUV" sequence="2" value="SUV"/>
+                <element inactive_on_update="false" label="Truck" sequence="3" value="Truck"/>
+                <element inactive_on_update="false" label="Trailer" sequence="4" value="Trailer"/>
+                <element inactive_on_update="false" label="Van" sequence="5" value="Van"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Registered Vessel Name" max_length="40" name="vessel_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="VIN" max_length="40" name="vin" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Year" max_length="4" name="year" type="string"/>
+    </element>
+</database>

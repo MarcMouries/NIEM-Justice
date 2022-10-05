@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ca44e409979a991081dd33271153afbf" extends="sn_ent_model" label="Evidence Model" max_length="40" name="sn_niem_j_evidence_model" type="collection">
+        <element label="DEA Number" max_length="40" name="dea_number" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Drug Class" max_length="40" name="drug_class" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Opioids" sequence="0" value="Opioids"/>
+                <element inactive_on_update="false" label="Narcotics" sequence="1" value="Narcotics"/>
+                <element inactive_on_update="false" label="Stimulants" sequence="2" value="Stimulants"/>
+                <element inactive_on_update="false" label="Depressants" sequence="3" value="Depressants"/>
+                <element inactive_on_update="false" label="Hallucinogens" sequence="4" value="Hallucinogens"/>
+                <element inactive_on_update="false" label="Anabolic Steroids" sequence="5" value="Anabolic Steroids"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Drug Schedule" max_length="40" name="drug_schedule" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Schedule I" sequence="0" value="Schedule I"/>
+                <element inactive_on_update="false" label="Schedule II" sequence="1" value="Schedule II"/>
+                <element inactive_on_update="false" label="Schedule III" sequence="2" value="Schedule III"/>
+                <element inactive_on_update="false" label="Schedule IV" sequence="3" value="Schedule IV"/>
+                <element inactive_on_update="false" label="Schedule V" sequence="4" value="Schedule V"/>
+            </choice>
+        </element>
+    </element>
+</database>

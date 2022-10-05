@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>drug</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-03 14:09:57</sys_created_on>
+        <sys_id>cbb31f3d9752dd1081dd33271153af38</sys_id>
+        <sys_name>drug</sys_name>
+        <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_update_name>sys_ui_view_cbb31f3d9752dd1081dd33271153af38</sys_update_name>
+        <title>drug</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

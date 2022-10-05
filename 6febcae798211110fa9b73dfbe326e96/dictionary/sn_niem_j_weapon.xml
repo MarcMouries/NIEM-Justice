@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5ed5199e9792515081dd33271153af8d" extends="sn_niem_j_property" label="Weapon" max_length="40" name="sn_niem_j_weapon" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Caliber" max_length="40" name="caliber" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Configuration" max_length="40" name="configuration" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Handgun" sequence="0" value="Handgun"/>
+                <element inactive_on_update="false" label="Long Gun" sequence="1" value="Long Gun"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Function" max_length="40" name="function" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Manual" sequence="0" value="Manual"/>
+                <element inactive_on_update="false" label="Semi-Automatic" sequence="1" value="Semi-Automatic"/>
+                <element inactive_on_update="false" label="Automatic" sequence="2" value="Automatic"/>
+                <element inactive_on_update="false" label="Selective-Fire" sequence="3" value="Selective-Fire"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Make" max_length="100" name="make" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Manufacturer" max_length="100" name="manufacturer" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Model" max_length="100" name="model" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other Weapon" max_length="100" name="other_weapon" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Serial" max_length="40" name="serial" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Weapon Type" max_length="40" name="weapon_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Firearm" sequence="0" value="Firearm"/>
+                <element inactive_on_update="false" label="Other" sequence="1" value="Other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Year" max_length="4" name="year" type="string"/>
+    </element>
+</database>

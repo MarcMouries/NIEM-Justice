@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="sn_niem_j_weapon">sn_niem_j_weapon</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>WEA</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-04 18:17:16</sys_created_on>
+        <sys_id>b3e5999e9792515081dd33271153af24</sys_id>
+        <sys_name>WEA</sys_name>
+        <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_update_name>sys_number_b3e5999e9792515081dd33271153af24</sys_update_name>
+    </sys_number>
+</record_update>

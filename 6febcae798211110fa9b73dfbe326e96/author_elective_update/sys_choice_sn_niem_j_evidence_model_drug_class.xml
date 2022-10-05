@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="drug_class" table="sn_niem_j_evidence_model" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>drug_class</element>
+            <name>sn_niem_j_evidence_model</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-03 14:07:49</sys_created_on>
+            <sys_name>drug_class</sys_name>
+            <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+            <sys_update_name>sys_choice_sn_niem_j_evidence_model_drug_class</sys_update_name>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>drug_class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Opioids</label>
+            <language>en</language>
+            <name>sn_niem_j_evidence_model</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-03 14:07:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>Opioids</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>drug_class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Narcotics</label>
+            <language>en</language>
+            <name>sn_niem_j_evidence_model</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-03 14:07:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>Narcotics</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>drug_class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Stimulants</label>
+            <language>en</language>
+            <name>sn_niem_j_evidence_model</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-03 14:07:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>Stimulants</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>drug_class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Depressants</label>
+            <language>en</language>
+            <name>sn_niem_j_evidence_model</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-03 14:07:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>Depressants</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>drug_class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hallucinogens</label>
+            <language>en</language>
+            <name>sn_niem_j_evidence_model</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-03 14:07:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>Hallucinogens</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>drug_class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Anabolic Steroids</label>
+            <language>en</language>
+            <name>sn_niem_j_evidence_model</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-03 14:07:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>Anabolic Steroids</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

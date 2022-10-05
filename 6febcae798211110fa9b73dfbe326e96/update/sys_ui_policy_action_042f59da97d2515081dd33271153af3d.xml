@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>collection_date_time</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-04 18:57:26</sys_created_on>
+        <sys_id>042f59da97d2515081dd33271153af3d</sys_id>
+        <sys_name>collection_date_time</sys_name>
+        <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_update_name>sys_ui_policy_action_042f59da97d2515081dd33271153af3d</sys_update_name>
+        <table>sn_niem_j_property</table>
+        <ui_policy display_value="Evidence Mandatory Fields">14ded1da97d2515081dd33271153af8e</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

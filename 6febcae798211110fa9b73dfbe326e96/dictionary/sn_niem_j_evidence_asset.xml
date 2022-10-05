@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="dac4ec09979a991081dd33271153af2e" extends="sn_ent_asset" label="Evidence Asset" max_length="40" name="sn_niem_j_evidence_asset" type="collection"/>
+</database>

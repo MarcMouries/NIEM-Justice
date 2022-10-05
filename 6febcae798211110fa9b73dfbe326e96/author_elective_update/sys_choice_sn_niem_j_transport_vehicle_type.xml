@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="vehicle_type" table="sn_niem_j_transport" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>vehicle_type</element>
+            <name>sn_niem_j_transport</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-04 15:29:05</sys_created_on>
+            <sys_name>vehicle_type</sys_name>
+            <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+            <sys_update_name>sys_choice_sn_niem_j_transport_vehicle_type</sys_update_name>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>vehicle_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Coupe</label>
+            <language>en</language>
+            <name>sn_niem_j_transport</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-04 15:29:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>Coupe</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>vehicle_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sedan</label>
+            <language>en</language>
+            <name>sn_niem_j_transport</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-04 15:29:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>Sedan</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>vehicle_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SUV</label>
+            <language>en</language>
+            <name>sn_niem_j_transport</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-04 15:29:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>SUV</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>vehicle_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Truck</label>
+            <language>en</language>
+            <name>sn_niem_j_transport</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-04 15:29:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>Truck</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>vehicle_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Trailer</label>
+            <language>en</language>
+            <name>sn_niem_j_transport</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-04 15:31:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>Trailer</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>vehicle_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Van</label>
+            <language>en</language>
+            <name>sn_niem_j_transport</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-04 15:31:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>Van</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

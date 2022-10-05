@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="width_unit" table="sn_niem_j_property" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>width_unit</element>
+            <name>sn_niem_j_property</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-04 12:12:40</sys_created_on>
+            <sys_name>width_unit</sys_name>
+            <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+            <sys_update_name>sys_choice_sn_niem_j_property_width_unit</sys_update_name>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>metric</dependent_value>
+            <element>width_unit</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Centimeters (cm)</label>
+            <language>en</language>
+            <name>sn_niem_j_property</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-04 12:12:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>cm</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>us imperial</dependent_value>
+            <element>width_unit</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Feet (ft)</label>
+            <language>en</language>
+            <name>sn_niem_j_property</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-04 12:14:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>ft</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>us imperial</dependent_value>
+            <element>width_unit</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Inches (in)</label>
+            <language>en</language>
+            <name>sn_niem_j_property</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-04 12:14:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>in</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>metric</dependent_value>
+            <element>width_unit</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Meters (m)</label>
+            <language>en</language>
+            <name>sn_niem_j_property</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-04 12:14:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>m</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="sn_niem_j_controlled_substances">sn_niem_j_controlled_substances</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>CON</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-04 13:40:03</sys_created_on>
+        <sys_id>7276d8de97da115081dd33271153af36</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CON</sys_name>
+        <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_update_name>sys_number_7276d8de97da115081dd33271153af36</sys_update_name>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-04 13:40:03</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</application>
+        <file_path/>
+        <instance_id>452b90e0db6919908aea21c40596198f</instance_id>
+        <instance_name>deamosdemo</instance_name>
+        <name>sys_number_7276d8de97da115081dd33271153af36</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="sn_niem_j_controlled_substances">sn_niem_j_controlled_substances</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>CON</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>steven.ly</sys_created_by><sys_created_on>2022-10-04 13:40:03</sys_created_on><sys_id>7276d8de97da115081dd33271153af36</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CON</sys_name><sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package><sys_policy/><sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope><sys_update_name>sys_number_7276d8de97da115081dd33271153af36</sys_update_name><sys_updated_by>steven.ly</sys_updated_by><sys_updated_on>2022-10-04 13:40:03</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>124670546</payload_hash>
+        <record_name>CON</record_name>
+        <reverted_from/>
+        <source>aa320873472dd91024e32782846d4309</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-04 13:40:03</sys_created_on>
+        <sys_id>fa76d8de97da115081dd33271153af4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183a33996660000001</sys_recorded_at>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-04 13:40:03</sys_updated_on>
+        <type>Number</type>
+        <update_guid>3676d8de03da1150ea562edc4a224d4b</update_guid>
+        <update_guid_history>3676d8de03da1150ea562edc4a224d4b:124670546</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-04 13:47:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>05013ff5c3db4859956c478373ecc429</sys_id>
+        <sys_metadata>7276d8de97da115081dd33271153af36</sys_metadata>
+        <sys_name>CON</sys_name>
+        <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+        <sys_parent display_value="">8d4654de97da115081dd33271153afcf</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_scope_delete display_value="">4587fa99cc9544b09fbf217996537240</sys_scope_delete>
+        <sys_update_name>sys_number_7276d8de97da115081dd33271153af36</sys_update_name>
+        <sys_update_version display_value="sys_number_7276d8de97da115081dd33271153af36">fa76d8de97da115081dd33271153af4b</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

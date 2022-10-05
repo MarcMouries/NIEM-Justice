@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="bad67f02975a115081dd33271153af4c" label="Property" max_length="40" name="sn_niem_j_property" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Acquisition Method" max_length="40" name="acquisition_method" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Purchase" sequence="0" value="Purchase"/>
+                <element inactive_on_update="false" label="Seizure" sequence="1" value="Seizure"/>
+                <element inactive_on_update="false" label="Compliance Sample" sequence="2" value="Compliance Sample"/>
+                <element inactive_on_update="false" label="Free Sample" sequence="3" value="Free Sample"/>
+                <element inactive_on_update="false" label="Clandestine Lab Seizure" sequence="4" value="Clandestine Lab Seizure"/>
+                <element inactive_on_update="false" label="Forfeiture" sequence="5" value="Forfeiture"/>
+                <element inactive_on_update="false" label="Transfer from Another Agency" sequence="6" value="Transfer from Another Agency"/>
+                <element inactive_on_update="false" label="Temporary Custody" sequence="7" value="Temporary Custody"/>
+            </choice>
+        </element>
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="not requested" label="Approval" max_length="40" name="approval" type="string">
+            <choice>
+                <element dependent_value="not requested" inactive_on_update="false" label="Not Yet Requested" sequence="0" value="not requested"/>
+                <element dependent_value="not requested" inactive_on_update="false" label="Requested" sequence="1" value="requested"/>
+                <element dependent_value="not requested" inactive_on_update="false" label="Approved" sequence="2" value="approved"/>
+                <element dependent_value="not requested" inactive_on_update="false" label="Rejected" sequence="3" value="rejected"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Approval History" max_length="4000" name="approval_history" type="journal"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Classification" max_length="40" name="classification" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Evidence" value="evidence"/>
+                <element inactive_on_update="false" label="Property" value="property"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Collected By" max_length="32" name="collected_by" reference="sys_user" reference_qual="roles=sn_niem_j.evidence_user^EQ" reference_qual_condition="roles=sn_niem_j.evidence_user^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Collection Date/Time" max_length="40" name="collection_date_time" type="calendar_date_time"/>
+        <element attributes="encode_utf8=false" label="Collection Location" max_length="32" name="collection_location" reference="sn_niem_address" type="reference"/>
+        <element label="Depth" max_length="15" name="depth" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="unit_of_measure_system" dependent_on_field="unit_of_measure_system" label="Depth Unit" max_length="40" name="depth_unit" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="metric" inactive_on_update="false" label="Centimeters (cm)" value="cm"/>
+                <element dependent_value="us imperial" inactive_on_update="false" label="Feet (ft)" value="ft"/>
+                <element dependent_value="us imperial" inactive_on_update="false" label="Inches (in)" value="in"/>
+                <element dependent_value="metric" inactive_on_update="false" label="Meters (m)" value="m"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Description of Property" max_length="4000" name="description" type="string"/>
+        <element label="Height" max_length="15" name="height" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="unit_of_measure_system" dependent_on_field="unit_of_measure_system" label="Height Unit" max_length="40" name="height_unit" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="metric" inactive_on_update="false" label="Centimeters (cm)" value="cm"/>
+                <element dependent_value="us imperial" inactive_on_update="false" label="Feet (ft)" value="ft"/>
+                <element dependent_value="us imperial" inactive_on_update="false" label="Inches (in)" value="in"/>
+                <element dependent_value="metric" inactive_on_update="false" label="Meters (m)" value="m"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Evidence Item #" max_length="40" name="item" type="string"/>
+        <element label="Length" max_length="15" name="length" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="unit_of_measure_system" dependent_on_field="unit_of_measure_system" label="Length Unit" max_length="40" name="length_unit" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="metric" inactive_on_update="false" label="Centimeters (cm)" value="cm"/>
+                <element dependent_value="us imperial" inactive_on_update="false" label="Feet (ft)" value="ft"/>
+                <element dependent_value="us imperial" inactive_on_update="false" label="Inches (in)" value="in"/>
+                <element dependent_value="metric" inactive_on_update="false" label="Meters (m)" value="m"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Maintained By" max_length="32" name="maintained_by" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Managed By" max_length="32" name="managed_by" reference="sys_user" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="encode_utf8=false" label="Operation" max_length="32" name="operation" reference="sn_icms_operation_plan" type="reference"/>
+        <element attributes="encode_utf8=false" label="Owned By" max_length="32" name="owned_by" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Parent" max_length="32" name="parent" reference="sn_niem_j_property" type="reference"/>
+        <element attributes="pdf_cell_type=image" label="Picture" max_length="40" name="picture" type="user_image"/>
+        <element label="Pressure" max_length="15" name="pressure" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="unit_of_measure_system" dependent_on_field="unit_of_measure_system" label="Pressure Unit" max_length="40" name="pressure_unit" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="-- Edit this --" inactive_on_update="false" label="-- New choice --" value="-- New choice --"/>
+                <element dependent_value="metric" inactive_on_update="false" label="Pascal (Pa)" value="pa"/>
+                <element dependent_value="us imperial" inactive_on_update="false" label="Pounds per square inch (PSI)" value="psi"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Property ID (RFID)" max_length="40" name="property_id" type="string"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Property Value" max_length="20" name="property_value" type="price"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="transit" label="State" max_length="40" name="state" type="string">
+            <choice>
+                <element inactive_on_update="false" label="In Custody" sequence="0" value="custody"/>
+                <element inactive_on_update="false" label="In Maintenance" sequence="0" value="maintenance"/>
+                <element inactive_on_update="false" label="In Transit" sequence="0" value="transit"/>
+                <element inactive_on_update="false" label="In Use" sequence="0" value="use"/>
+                <element inactive_on_update="false" label="Missing" sequence="0" value="missing"/>
+                <element inactive_on_update="false" label="On Order" sequence="0" value="order"/>
+                <element inactive_on_update="false" label="Retired" sequence="0" value="retired"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Storage Location" max_length="32" name="storage_location" reference="alm_stockroom" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="pending approval" label="Substate" max_length="40" name="substate" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Available" sequence="0" value="available"/>
+                <element inactive_on_update="false" label="Reserved" sequence="1" value="reserved"/>
+                <element inactive_on_update="false" label="Damaged" sequence="2" value="damaged"/>
+                <element inactive_on_update="false" label="Pending Disposal" sequence="3" value="pending disposal"/>
+                <element inactive_on_update="false" label="Pending Transfered" sequence="4" value="pending transfered"/>
+                <element inactive_on_update="false" label="Pending Repair" sequence="5" value="pending repair"/>
+                <element inactive_on_update="false" label="Pending Approval" sequence="6" value="pending approval"/>
+                <element inactive_on_update="false" label="Pre-Allocated" sequence="7" value="pre-allocated"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Temperature" max_length="15" name="temperature" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="unit_of_measure_system" dependent_on_field="unit_of_measure_system" label="Temperature Unit" max_length="40" name="temperature_unit" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="metric" inactive_on_update="false" label="Celsius (C)" value="c"/>
+                <element dependent_value="us imperial" inactive_on_update="false" label="Farenheit (F)" value="f"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="us imperial" label="Unit of Measure System" max_length="40" name="unit_of_measure_system" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Metric" value="metric"/>
+                <element inactive_on_update="false" label="US Imperial" value="us imperial"/>
+            </choice>
+        </element>
+        <element label="Volume" max_length="15" name="volume" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="unit_of_measure_system" dependent_on_field="unit_of_measure_system" label="Volume Unit" max_length="40" name="volume_unit" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="metric" inactive_on_update="false" label="Cubic Centirmeters (cc)" value="cc"/>
+                <element dependent_value="us imperial" inactive_on_update="false" label="Gallons (gal)" value="gal"/>
+                <element dependent_value="metric" inactive_on_update="false" label="Liters (ltr)" value="ltr"/>
+                <element dependent_value="us imperial" inactive_on_update="false" label="Ounces (oz)" value="oz"/>
+            </choice>
+        </element>
+        <element label="Weight" max_length="15" name="weight" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="unit_of_measure_system" dependent_on_field="unit_of_measure_system" label="Weight Unit" max_length="40" name="weight_unit" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="metric" inactive_on_update="false" label="Grams (g)" value="g"/>
+                <element dependent_value="metric" inactive_on_update="false" label="Kilograms (kg)" value="kg"/>
+                <element dependent_value="us imperial" inactive_on_update="false" label="Ounces (oz)" value="oz"/>
+                <element dependent_value="us imperial" inactive_on_update="false" label="Pounds (lb)" value="lb"/>
+            </choice>
+        </element>
+        <element label="Width" max_length="15" name="width" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="unit_of_measure_system" dependent_on_field="unit_of_measure_system" label="Width Unit" max_length="40" name="width_unit" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="metric" inactive_on_update="false" label="Centimeters (cm)" value="cm"/>
+                <element dependent_value="us imperial" inactive_on_update="false" label="Feet (ft)" value="ft"/>
+                <element dependent_value="us imperial" inactive_on_update="false" label="Inches (in)" value="in"/>
+                <element dependent_value="metric" inactive_on_update="false" label="Meters (m)" value="m"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Work Notes" max_length="40" name="work_notes" type="journal_input"/>
+        <index name="index">
+            <element name="collected_by"/>
+        </index>
+        <index name="index2">
+            <element name="collection_location"/>
+        </index>
+        <index name="index3">
+            <element name="maintained_by"/>
+        </index>
+        <index name="index4">
+            <element name="managed_by"/>
+        </index>
+        <index name="index5">
+            <element name="operation"/>
+        </index>
+        <index name="index6">
+            <element name="owned_by"/>
+        </index>
+        <index name="index7">
+            <element name="parent"/>
+        </index>
+        <index name="index8">
+            <element name="storage_location"/>
+        </index>
+        <index name="index9">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

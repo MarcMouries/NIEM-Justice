@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="cde7e877970e551081dd33271153af72" label="Charges" max_length="40" name="sn_niem_j_charges" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;var str;&#13;&#10;&#9;if (current.code) {&#13;&#10;&#9;&#9;str = (current.code + ' - ' + current.description);&#13;&#10;&#9;&#9;return str;&#13;&#10;&#9;}&#13;&#10;&#13;&#10;})(current);" display="true" label="Charge" max_length="100" name="charge" type="string" virtual="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Code" max_length="40" name="code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="100" name="description" type="string"/>
+    </element>
+</database>

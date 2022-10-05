@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="weight_unit" table="sn_niem_j_property" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>weight_unit</element>
+            <name>sn_niem_j_property</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-04 12:18:53</sys_created_on>
+            <sys_name>weight_unit</sys_name>
+            <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+            <sys_update_name>sys_choice_sn_niem_j_property_weight_unit</sys_update_name>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>metric</dependent_value>
+            <element>weight_unit</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Grams (g)</label>
+            <language>en</language>
+            <name>sn_niem_j_property</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-04 12:19:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>g</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>metric</dependent_value>
+            <element>weight_unit</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Kilograms (kg)</label>
+            <language>en</language>
+            <name>sn_niem_j_property</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-04 12:20:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>kg</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>us imperial</dependent_value>
+            <element>weight_unit</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pounds (lb)</label>
+            <language>en</language>
+            <name>sn_niem_j_property</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-04 12:19:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>lb</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>us imperial</dependent_value>
+            <element>weight_unit</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ounces (oz)</label>
+            <language>en</language>
+            <name>sn_niem_j_property</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-04 12:18:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>oz</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

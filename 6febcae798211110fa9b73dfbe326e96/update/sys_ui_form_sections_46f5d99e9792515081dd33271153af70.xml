@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="46f5d99e9792515081dd33271153af70" sys_domain="global" table="sn_niem_j_weapon" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-04 18:17:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>12f51d9e9792515081dd33271153af37</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_niem_j_weapon" name="sn_niem_j_weapon" sys_domain="global" view="Default view">46f5d99e9792515081dd33271153af70</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_j_weapon" sys_domain="global" view="Default view">92f51d9e9792515081dd33271153af31</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-10-04 18:17:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-04 18:17:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>92f51d9e9792515081dd33271153af19</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_niem_j_weapon" name="sn_niem_j_weapon" sys_domain="global" view="Default view">46f5d99e9792515081dd33271153af70</sys_ui_form>
+            <sys_ui_section caption="Evidence Details" display_value="Evidence Details" name="sn_niem_j_weapon" sys_domain="global" view="Default view">c2f51d9e9792515081dd33271153af14</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-10-04 18:17:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-04 18:17:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>16f51d9e9792515081dd33271153af2d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_niem_j_weapon" name="sn_niem_j_weapon" sys_domain="global" view="Default view">46f5d99e9792515081dd33271153af70</sys_ui_form>
+            <sys_ui_section caption="Attributes" display_value="Attributes" name="sn_niem_j_weapon" sys_domain="global" view="Default view">16f51d9e9792515081dd33271153af24</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-10-04 18:17:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-04 18:17:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9ef51d9e9792515081dd33271153af23</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_niem_j_weapon" name="sn_niem_j_weapon" sys_domain="global" view="Default view">46f5d99e9792515081dd33271153af70</sys_ui_form>
+            <sys_ui_section caption="Contact Information" display_value="Contact Information" name="sn_niem_j_weapon" sys_domain="global" view="Default view">1af51d9e9792515081dd33271153af20</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-10-04 18:17:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-04 18:17:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>92f51d9e9792515081dd33271153af20</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_niem_j_weapon" name="sn_niem_j_weapon" sys_domain="global" view="Default view">46f5d99e9792515081dd33271153af70</sys_ui_form>
+            <sys_ui_section caption="Related Records" display_value="Related Records" name="sn_niem_j_weapon" sys_domain="global" view="Default view">1af51d9e9792515081dd33271153af19</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-10-04 18:17:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-04 18:17:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1ef51d9e9792515081dd33271153af30</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_niem_j_weapon" name="sn_niem_j_weapon" sys_domain="global" view="Default view">46f5d99e9792515081dd33271153af70</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="sn_niem_j_weapon" sys_domain="global" view="Default view">9af51d9e9792515081dd33271153af2d</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-10-04 18:17:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>sn_niem_j_weapon</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-04 18:17:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>46f5d99e9792515081dd33271153af70</sys_id>
+            <sys_name>sn_niem_j_weapon</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+            <sys_update_name>sys_ui_form_sections_46f5d99e9792515081dd33271153af70</sys_update_name>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

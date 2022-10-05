@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="03b35f3d9752dd1081dd33271153af43" sys_domain="global" table="sn_niem_j_evidence_model" version="3" view="drug">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>display_name</element>
+            <position>0</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-03 14:31:24</sys_created_on>
+            <sys_id>41a857f19792dd1081dd33271153af96</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_j_evidence_model" sys_domain="global" view="cbb31f3d9752dd1081dd33271153af38">03b35f3d9752dd1081dd33271153af43</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-10-03 14:31:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>1</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-03 14:31:24</sys_created_on>
+            <sys_id>49a857f19792dd1081dd33271153af96</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_j_evidence_model" sys_domain="global" view="cbb31f3d9752dd1081dd33271153af38">03b35f3d9752dd1081dd33271153af43</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-10-03 14:31:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dea_number</element>
+            <position>2</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-03 14:31:24</sys_created_on>
+            <sys_id>4da857f19792dd1081dd33271153af96</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_j_evidence_model" sys_domain="global" view="cbb31f3d9752dd1081dd33271153af38">03b35f3d9752dd1081dd33271153af43</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-10-03 14:31:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>drug_schedule</element>
+            <position>3</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-03 14:31:24</sys_created_on>
+            <sys_id>41a857f19792dd1081dd33271153af97</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_j_evidence_model" sys_domain="global" view="cbb31f3d9752dd1081dd33271153af38">03b35f3d9752dd1081dd33271153af43</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-10-03 14:31:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>drug_class</element>
+            <position>4</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-03 14:31:24</sys_created_on>
+            <sys_id>45a857f19792dd1081dd33271153af97</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_j_evidence_model" sys_domain="global" view="cbb31f3d9752dd1081dd33271153af38">03b35f3d9752dd1081dd33271153af43</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-10-03 14:31:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cmdb_model_category</element>
+            <position>5</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-03 14:31:24</sys_created_on>
+            <sys_id>49a857f19792dd1081dd33271153af97</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_j_evidence_model" sys_domain="global" view="cbb31f3d9752dd1081dd33271153af38">03b35f3d9752dd1081dd33271153af43</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-10-03 14:31:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <position>6</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-03 14:31:24</sys_created_on>
+            <sys_id>4da857f19792dd1081dd33271153af97</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_j_evidence_model" sys_domain="global" view="cbb31f3d9752dd1081dd33271153af38">03b35f3d9752dd1081dd33271153af43</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-10-03 14:31:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>model_number</element>
+            <position>7</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-03 14:31:24</sys_created_on>
+            <sys_id>41a857f19792dd1081dd33271153af98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_j_evidence_model" sys_domain="global" view="cbb31f3d9752dd1081dd33271153af38">03b35f3d9752dd1081dd33271153af43</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-10-03 14:31:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>model_type</element>
+            <position>8</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-03 14:31:24</sys_created_on>
+            <sys_id>45a857f19792dd1081dd33271153af98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_j_evidence_model" sys_domain="global" view="cbb31f3d9752dd1081dd33271153af38">03b35f3d9752dd1081dd33271153af43</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-10-03 14:31:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>sn_niem_j_evidence_model</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-03 14:09:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>03b35f3d9752dd1081dd33271153af43</sys_id>
+            <sys_name>sn_niem_j_evidence_model</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+            <sys_update_name>sys_ui_section_03b35f3d9752dd1081dd33271153af43</sys_update_name>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="drug" name="drug">cbb31f3d9752dd1081dd33271153af38</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="engine_type" table="sn_niem_j_transport" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>engine_type</element>
+            <name>sn_niem_j_transport</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-04 15:33:01</sys_created_on>
+            <sys_name>engine_type</sys_name>
+            <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+            <sys_update_name>sys_choice_sn_niem_j_transport_engine_type</sys_update_name>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>engine_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Gas</label>
+            <language>en</language>
+            <name>sn_niem_j_transport</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-04 15:33:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>Gas</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>engine_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Diesel</label>
+            <language>en</language>
+            <name>sn_niem_j_transport</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-04 15:33:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>Diesel</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>engine_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Electric</label>
+            <language>en</language>
+            <name>sn_niem_j_transport</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-04 15:33:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>Electric</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

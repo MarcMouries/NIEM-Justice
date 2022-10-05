@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="hull_type" label="Hull Type" language="en" table="sn_niem_j_transport">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>hull_type</element>
+            <help/>
+            <hint/>
+            <label>Hull Type</label>
+            <language>en</language>
+            <name>sn_niem_j_transport</name>
+            <plural>Hull Types</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-04 16:20:33</sys_created_on>
+            <sys_name>Hull Type</sys_name>
+            <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+            <sys_update_name>sys_documentation_sn_niem_j_transport_hull_type_en</sys_update_name>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

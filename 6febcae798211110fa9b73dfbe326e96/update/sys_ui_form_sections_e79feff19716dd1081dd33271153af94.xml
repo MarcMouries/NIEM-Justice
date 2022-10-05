@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="e79feff19716dd1081dd33271153af94" sys_domain="global" table="sn_niem_j_evidence_model" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-03 16:11:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6f9feff19716dd1081dd33271153af95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_niem_j_evidence_model" name="sn_niem_j_evidence_model" sys_domain="global" view="Default view">e79feff19716dd1081dd33271153af94</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_j_evidence_model" sys_domain="global" view="Default view">badd1d05979e991081dd33271153af16</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-10-03 16:11:46</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-03 16:11:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>679fab759716dd1081dd33271153afe6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_niem_j_evidence_model" name="sn_niem_j_evidence_model" sys_domain="global" view="Default view">e79feff19716dd1081dd33271153af94</sys_ui_form>
+            <sys_ui_section caption="Evidence Details" display_value="Evidence Details" name="sn_niem_j_evidence_model" sys_domain="global" view="Default view">e79fab759716dd1081dd33271153afe4</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-10-03 16:11:46</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-03 16:15:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6760fbb59716dd1081dd33271153affb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sn_niem_j_evidence_model" name="sn_niem_j_evidence_model" sys_domain="global" view="Default view">e79feff19716dd1081dd33271153af94</sys_ui_form>
+            <sys_ui_section caption="Attributes" display_value="Attributes" name="sn_niem_j_evidence_model" sys_domain="global" view="Default view">a760fbb59716dd1081dd33271153aff7</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-10-03 16:15:19</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>sn_niem_j_evidence_model</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-03 16:11:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e79feff19716dd1081dd33271153af94</sys_id>
+            <sys_name>sn_niem_j_evidence_model</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+            <sys_update_name>sys_ui_form_sections_e79feff19716dd1081dd33271153af94</sys_update_name>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

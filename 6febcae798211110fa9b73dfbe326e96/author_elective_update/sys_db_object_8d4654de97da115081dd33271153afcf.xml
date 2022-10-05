@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>true</delete_access>
+        <is_extendable>false</is_extendable>
+        <label>Controlled Substances</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>sn_niem_j_controlled_substances</name>
+        <number_ref display_value="CON">7276d8de97da115081dd33271153af36</number_ref>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-04 13:40:02</sys_created_on>
+        <sys_id>8d4654de97da115081dd33271153afcf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Controlled Substances</sys_name>
+        <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_update_name>sys_db_object_8d4654de97da115081dd33271153afcf</sys_update_name>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-04 13:40:03</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</application>
+        <file_path/>
+        <instance_id>452b90e0db6919908aea21c40596198f</instance_id>
+        <instance_name>deamosdemo</instance_name>
+        <name>sys_db_object_8d4654de97da115081dd33271153afcf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>true</create_access><create_access_controls>false</create_access_controls><delete_access>true</delete_access><is_extendable>false</is_extendable><label>Controlled Substances</label><live_feed_enabled>false</live_feed_enabled><name>sn_niem_j_controlled_substances</name><number_ref display_value="CON">7276d8de97da115081dd33271153af36</number_ref><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>steven.ly</sys_created_by><sys_created_on>2022-10-04 13:40:02</sys_created_on><sys_id>8d4654de97da115081dd33271153afcf</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Controlled Substances</sys_name><sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package><sys_policy/><sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope><sys_update_name>sys_db_object_8d4654de97da115081dd33271153afcf</sys_update_name><sys_updated_by>steven.ly</sys_updated_by><sys_updated_on>2022-10-04 13:40:03</sys_updated_on><update_access>true</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>2145224030</payload_hash>
+        <record_name>Controlled Substances</record_name>
+        <reverted_from/>
+        <source>aa320873472dd91024e32782846d4309</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-04 13:40:03</sys_created_on>
+        <sys_id>7676d8de97da115081dd33271153af3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183a33995310000001</sys_recorded_at>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-04 13:40:03</sys_updated_on>
+        <type>Table</type>
+        <update_guid>fa76d8de7fda1150f48d65b53b83fd3b</update_guid>
+        <update_guid_history>fa76d8de7fda1150f48d65b53b83fd3b:2145224030,3276d8de3fda1150ce4ac91bad009e35:-2035859089</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-04 13:47:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>53865f739b9a4cc2aa8de2973fe26bd1</sys_id>
+        <sys_metadata>8d4654de97da115081dd33271153afcf</sys_metadata>
+        <sys_name>Controlled Substances</sys_name>
+        <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_scope_delete display_value="">4587fa99cc9544b09fbf217996537240</sys_scope_delete>
+        <sys_update_name>sys_db_object_8d4654de97da115081dd33271153afcf</sys_update_name>
+        <sys_update_version display_value="sys_db_object_8d4654de97da115081dd33271153afcf">7676d8de97da115081dd33271153af3c</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
