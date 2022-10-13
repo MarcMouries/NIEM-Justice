@@ -7,7 +7,7 @@
         <hint/>
         <name/>
         <order>100</order>
-        <roles>snc_internal</roles>
+        <roles>snc_internal,sn_niem_j.property_user</roles>
         <sys_class_name>sys_app_application</sys_class_name>
         <sys_created_by>steven.ly</sys_created_by>
         <sys_created_on>2022-10-04 13:44:40</sys_created_on>

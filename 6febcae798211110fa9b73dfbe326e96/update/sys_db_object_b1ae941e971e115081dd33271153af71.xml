@@ -7,7 +7,7 @@
         <client_scripts_access>false</client_scripts_access>
         <configuration_access>false</configuration_access>
         <create_access>true</create_access>
-        <create_access_controls>false</create_access_controls>
+        <create_access_controls>true</create_access_controls>
         <delete_access>true</delete_access>
         <is_extendable>false</is_extendable>
         <label>Drug</label>
@@ -28,7 +28,7 @@
         <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
         <sys_update_name>sys_db_object_b1ae941e971e115081dd33271153af71</sys_update_name>
         <update_access>true</update_access>
-        <user_role/>
+        <user_role display_value="sn_niem_j.property_user" name="sn_niem_j.property_user">58373342975a115081dd33271153af9c</user_role>
         <ws_access>true</ws_access>
     </sys_db_object>
 </record_update>
