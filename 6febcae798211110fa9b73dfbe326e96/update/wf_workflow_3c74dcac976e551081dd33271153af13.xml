@@ -1,0 +1,3071 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <activity_stages>{"subflows":[],"activities":{},"stages":{},"ends":["92824a7c97ead51081dd33271153afc3"]}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition/>
+        <condition_type/>
+        <description/>
+        <expected_sequences>12824a7c97ead51081dd33271153afc0,96824a7c97ead51081dd33271153afeb,1e824a7c97ead51081dd33271153aff8,1e824a7c97ead51081dd33271153aff7,52824a7c97ead51081dd33271153afea,12824a7c97ead51081dd33271153afed,52824a7c97ead51081dd33271153afc2,16824a7c97ead51081dd33271153afe9,9a824a7c97ead51081dd33271153afee,56824a7c97ead51081dd33271153aff5,de824a7c97ead51081dd33271153aff6,5a824a7c97ead51081dd33271153afbd,5e824a7c97ead51081dd33271153afed,92824a7c97ead51081dd33271153aff6,12824a7c97ead51081dd33271153aff4,de824a7c97ead51081dd33271153afc0,92824a7c97ead51081dd33271153afc3</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>12824a7c97ead51081dd33271153afc0,96824a7c97ead51081dd33271153afeb,1e824a7c97ead51081dd33271153aff8,1e824a7c97ead51081dd33271153aff7,52824a7c97ead51081dd33271153afea,12824a7c97ead51081dd33271153afed,52824a7c97ead51081dd33271153afc2,16824a7c97ead51081dd33271153afe9,9a824a7c97ead51081dd33271153afee,da824a7c97ead51081dd33271153afbb,56824a7c97ead51081dd33271153aff5,92824a7c97ead51081dd33271153afbf,de824a7c97ead51081dd33271153aff6,5a824a7c97ead51081dd33271153afbd,5e824a7c97ead51081dd33271153afed,d2824a7c97ead51081dd33271153afec,92824a7c97ead51081dd33271153aff6,12824a7c97ead51081dd33271153aff4,de824a7c97ead51081dd33271153afc0,92824a7c97ead51081dd33271153afc3</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>Evidence Mgmt - Drug</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration display_value="2 business days by 4pm">3bf802c20a0a0b52008e2859cd8abcf2</relative_duration>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field/>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">12824a7c97ead51081dd33271153afc0</start>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>c6824a7c97ead51081dd33271153afb9</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 16:04:20</sys_updated_on>
+        <table>sn_niem_j_drug</table>
+        <timezone/>
+        <validated>false</validated>
+        <workflow display_value="Evidence Mgmt - Drug">3c74dcac976e551081dd33271153af13</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description/>
+        <name>Evidence Mgmt - Drug</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-11 13:17:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3c74dcac976e551081dd33271153af13</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Evidence Mgmt - Drug</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_update_name>wf_workflow_3c74dcac976e551081dd33271153af13</sys_update_name>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-11 19:53:12</sys_updated_on>
+        <table>sn_niem_j_drug</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Approval Action">50a78fa50a6a803f66d064255f7201a5</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>7</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Approved</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>56824a7c97ead51081dd33271153aff5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Evidence Mgmt - Drug">c6824a7c97ead51081dd33271153afb9</workflow_version>
+        <x>644</x>
+        <y>864</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=56824a7c97ead51081dd33271153aff5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>56824a7c97ead51081dd33271153aff5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>d6824a7c97ead51081dd33271153aff5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value>approved</value>
+        <variable display_value="Action">50ab35f70a6a803f76d36e1ebaf3639e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>56824a7c97ead51081dd33271153aff5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>d6824a7c97ead51081dd33271153aff5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value>approved</value>
+        <variable display_value="Action">50ab35f70a6a803f76d36e1ebaf3639e</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Approved">56824a7c97ead51081dd33271153aff5</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>da824a7c97ead51081dd33271153aff5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>11</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Auto-generate DEA 7 Form</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>52824a7c97ead51081dd33271153afc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Evidence Mgmt - Drug">c6824a7c97ead51081dd33271153afb9</workflow_version>
+        <x>200</x>
+        <y>544</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=52824a7c97ead51081dd33271153afc2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>52824a7c97ead51081dd33271153afc2</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>96824a7c97ead51081dd33271153afc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+        <value>generatePDF();&#13;
+&#13;
+function generatePDF(){&#13;
+    //-------------------------------------------------------------------------------------------------&#13;
+    // Upload and create a Managed Document record using a fillable PDF in order to get the sys_id&#13;
+    //-------------------------------------------------------------------------------------------------&#13;
+    var pdfSysId = 'e548496497a2951081dd33271153af7f';&#13;
+    &#13;
+    //-------------------------------------------------------------------------------------------------&#13;
+    // Getting values from the current record&#13;
+    //-------------------------------------------------------------------------------------------------&#13;
+    var currentDate = new GlideDate().getDisplayValue();&#13;
+    var currentRecord = current.sys_id;&#13;
+    var collectedDate = current.collection_date_time.getDisplayValue();&#13;
+    var evidenceNum = current.number.getDisplayValue();&#13;
+    var evidenceName = current.short_description.getDisplayValue();&#13;
+    var collectedLoc = current.collection_location.getDisplayValue();&#13;
+	var infoOnlyNo = 'Yes';&#13;
+	var infoOnlyYes;&#13;
+    var acqMethod = current.acquisition_method.getDisplayValue();&#13;
+    var referringAgency = 'DEA';&#13;
+    var caseNum = current.operation.case.getDisplayValue();&#13;
+    var operationNum = current.operation.getDisplayValue();&#13;
+	//var seizureType = current.seizure_type.getDisplayValue();&#13;
+	var seizureType = 'Bulk';&#13;
+    var bulkSeizureYes;&#13;
+	var bulkSeizureNo;&#13;
+	var identifyBulk;&#13;
+	var identifyThreshold;&#13;
+	var remarks = ('Property Tag: ' + current.property_id.getDisplayValue() + '\nEvidence #: ' + current.item.getDisplayValue());&#13;
+    var specialAgent = current.operation.case.assigned_to.getDisplayValue();&#13;
+    var saManager = current.operation.case.assigned_to.manager.getDisplayValue();&#13;
+    &#13;
+	//How Obtained check&#13;
+    if (acqMethod == 'Purchase') {&#13;
+        var obtainedPurchase = 'Yes';&#13;
+    } else if (acqMethod == 'Seizure') {&#13;
+        var obtainedSeized = 'Yes';&#13;
+    } else if (acqMethod == 'Compliance Sample') {&#13;
+        var obtainedCompliance = 'Yes';&#13;
+    } else if (acqMethod == 'Free Sample') {&#13;
+        var obtainedFreeSample = 'Yes';&#13;
+    } else if (acqMethod == 'Clandestine Lab Seizure') {&#13;
+        var obtainedClandestineLabSeizure = 'Yes';&#13;
+    }&#13;
+    &#13;
+    //Bulk Seizure check&#13;
+    if (seizureType == 'Bulk') {&#13;
+		bulkSeizureYes = 'Yes';&#13;
+		identifyBulk = 'Yes';&#13;
+    } else {&#13;
+		bulkSeizureNo = 'Yes';&#13;
+		identifyThreshold = 'Yes';&#13;
+    }&#13;
+       &#13;
+    //-------------------------------------------------------------------------------------------------&#13;
+    // Creating the JSON object to store values from a record and mapped fields from PDF&#13;
+    // &lt;PDF TEMPLATE FIELD NAME&gt; : &lt;VARIABLE OR RECORD FIELD VALUE&gt;&#13;
+    //-------------------------------------------------------------------------------------------------  	&#13;
+    var jsonObject = {&#13;
+        "DatePrepared":currentDate, &#13;
+        "FileNumber":operationNum,&#13;
+        "FileTitle":evidenceName,&#13;
+        "DEACustody":collectedDate,&#13;
+        "CollectedLocation":collectedLoc,&#13;
+		"InfoOnlyNo":infoOnlyNo,&#13;
+		"InfoOnlyYes":infoOnlyYes,&#13;
+        "ObtainedPurchase":obtainedPurchase,&#13;
+        "ObtainedSeized":obtainedSeized,&#13;
+        "ObtainedCompliance":obtainedCompliance,&#13;
+        "ObtainedFreeSample":obtainedFreeSample,&#13;
+        "ObtainedClandestineLabSeizure":obtainedClandestineLabSeizure,&#13;
+        "ReferringAgency":referringAgency,&#13;
+        "CaseNumber":caseNum,&#13;
+        "SeizureNumber":evidenceNum,&#13;
+        "BulkSeizureYes":bulkSeizureYes,&#13;
+        "BulkSeizureNo":bulkSeizureNo,&#13;
+        "IdentifyThreshold":identifyThreshold,&#13;
+        "IdentifyBulk":identifyBulk,&#13;
+        "Remarks":remarks,&#13;
+        "SpecialAgentName":specialAgent,&#13;
+        "SpecialAgentSupervisor":saManager&#13;
+    };&#13;
+&#13;
+    //-------------------------------------------------------------------------------------------------&#13;
+    // Create and attach PDF to current record&#13;
+    //-------------------------------------------------------------------------------------------------&#13;
+    var jsonString = JSON.stringify(jsonObject);&#13;
+    var destinationTableName = 'sn_niem_j_drug';&#13;
+    var destinationTableSysId = currentRecord;&#13;
+    var pdfName = ("DEA7_" + evidenceName + ".pdf");&#13;
+&#13;
+    var pdf = new global.GeneralPdfUtils();&#13;
+    pdf.prefillPdf(jsonString, destinationTableSysId, pdfSysId, destinationTableName, pdfName);&#13;
+&#13;
+    var gr =new GlideRecord('sys_attachment');&#13;
+    gr.addQuery('table_sys_id',currentRecord);&#13;
+    gr.query();&#13;
+&#13;
+    while(gr.next()){&#13;
+        gr.attachmentID = gr.getUniqueValue();   &#13;
+    }&#13;
+}</value>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>52824a7c97ead51081dd33271153afc2</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>96824a7c97ead51081dd33271153afc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+        <value>generatePDF();&#13;
+&#13;
+function generatePDF(){&#13;
+    //-------------------------------------------------------------------------------------------------&#13;
+    // Upload and create a Managed Document record using a fillable PDF in order to get the sys_id&#13;
+    //-------------------------------------------------------------------------------------------------&#13;
+    var pdfSysId = 'e548496497a2951081dd33271153af7f';&#13;
+    &#13;
+    //-------------------------------------------------------------------------------------------------&#13;
+    // Getting values from the current record&#13;
+    //-------------------------------------------------------------------------------------------------&#13;
+    var currentDate = new GlideDate().getDisplayValue();&#13;
+    var currentRecord = current.sys_id;&#13;
+    var collectedDate = current.collection_date_time.getDisplayValue();&#13;
+    var evidenceNum = current.number.getDisplayValue();&#13;
+    var evidenceName = current.short_description.getDisplayValue();&#13;
+    var collectedLoc = current.collection_location.getDisplayValue();&#13;
+	var infoOnlyNo = 'Yes';&#13;
+	var infoOnlyYes;&#13;
+    var acqMethod = current.acquisition_method.getDisplayValue();&#13;
+    var referringAgency = 'DEA';&#13;
+    var caseNum = current.operation.case.getDisplayValue();&#13;
+    var operationNum = current.operation.getDisplayValue();&#13;
+	//var seizureType = current.seizure_type.getDisplayValue();&#13;
+	var seizureType = 'Bulk';&#13;
+    var bulkSeizureYes;&#13;
+	var bulkSeizureNo;&#13;
+	var identifyBulk;&#13;
+	var identifyThreshold;&#13;
+	var remarks = ('Property Tag: ' + current.property_id.getDisplayValue() + '\nEvidence #: ' + current.item.getDisplayValue());&#13;
+    var specialAgent = current.operation.case.assigned_to.getDisplayValue();&#13;
+    var saManager = current.operation.case.assigned_to.manager.getDisplayValue();&#13;
+    &#13;
+	//How Obtained check&#13;
+    if (acqMethod == 'Purchase') {&#13;
+        var obtainedPurchase = 'Yes';&#13;
+    } else if (acqMethod == 'Seizure') {&#13;
+        var obtainedSeized = 'Yes';&#13;
+    } else if (acqMethod == 'Compliance Sample') {&#13;
+        var obtainedCompliance = 'Yes';&#13;
+    } else if (acqMethod == 'Free Sample') {&#13;
+        var obtainedFreeSample = 'Yes';&#13;
+    } else if (acqMethod == 'Clandestine Lab Seizure') {&#13;
+        var obtainedClandestineLabSeizure = 'Yes';&#13;
+    }&#13;
+    &#13;
+    //Bulk Seizure check&#13;
+    if (seizureType == 'Bulk') {&#13;
+		bulkSeizureYes = 'Yes';&#13;
+		identifyBulk = 'Yes';&#13;
+    } else {&#13;
+		bulkSeizureNo = 'Yes';&#13;
+		identifyThreshold = 'Yes';&#13;
+    }&#13;
+       &#13;
+    //-------------------------------------------------------------------------------------------------&#13;
+    // Creating the JSON object to store values from a record and mapped fields from PDF&#13;
+    // &lt;PDF TEMPLATE FIELD NAME&gt; : &lt;VARIABLE OR RECORD FIELD VALUE&gt;&#13;
+    //-------------------------------------------------------------------------------------------------  	&#13;
+    var jsonObject = {&#13;
+        "DatePrepared":currentDate, &#13;
+        "FileNumber":operationNum,&#13;
+        "FileTitle":evidenceName,&#13;
+        "DEACustody":collectedDate,&#13;
+        "CollectedLocation":collectedLoc,&#13;
+		"InfoOnlyNo":infoOnlyNo,&#13;
+		"InfoOnlyYes":infoOnlyYes,&#13;
+        "ObtainedPurchase":obtainedPurchase,&#13;
+        "ObtainedSeized":obtainedSeized,&#13;
+        "ObtainedCompliance":obtainedCompliance,&#13;
+        "ObtainedFreeSample":obtainedFreeSample,&#13;
+        "ObtainedClandestineLabSeizure":obtainedClandestineLabSeizure,&#13;
+        "ReferringAgency":referringAgency,&#13;
+        "CaseNumber":caseNum,&#13;
+        "SeizureNumber":evidenceNum,&#13;
+        "BulkSeizureYes":bulkSeizureYes,&#13;
+        "BulkSeizureNo":bulkSeizureNo,&#13;
+        "IdentifyThreshold":identifyThreshold,&#13;
+        "IdentifyBulk":identifyBulk,&#13;
+        "Remarks":remarks,&#13;
+        "SpecialAgentName":specialAgent,&#13;
+        "SpecialAgentSupervisor":saManager&#13;
+    };&#13;
+&#13;
+    //-------------------------------------------------------------------------------------------------&#13;
+    // Create and attach PDF to current record&#13;
+    //-------------------------------------------------------------------------------------------------&#13;
+    var jsonString = JSON.stringify(jsonObject);&#13;
+    var destinationTableName = 'sn_niem_j_drug';&#13;
+    var destinationTableSysId = currentRecord;&#13;
+    var pdfName = ("DEA7_" + evidenceName + ".pdf");&#13;
+&#13;
+    var pdf = new global.GeneralPdfUtils();&#13;
+    pdf.prefillPdf(jsonString, destinationTableSysId, pdfSysId, destinationTableName, pdfName);&#13;
+&#13;
+    var gr =new GlideRecord('sys_attachment');&#13;
+    gr.addQuery('table_sys_id',currentRecord);&#13;
+    gr.query();&#13;
+&#13;
+    while(gr.next()){&#13;
+        gr.attachmentID = gr.getUniqueValue();   &#13;
+    }&#13;
+}</value>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Auto-generate DEA 7 Form">52824a7c97ead51081dd33271153afc2</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>1e824a7c97ead51081dd33271153afc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>12824a7c97ead51081dd33271153afc0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="Evidence Mgmt - Drug">c6824a7c97ead51081dd33271153afb9</workflow_version>
+        <x>20</x>
+        <y>20</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=12824a7c97ead51081dd33271153afc0"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Begin">12824a7c97ead51081dd33271153afc0</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>1a824a7c97ead51081dd33271153afc0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>3</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Create Processing &amp; Preparation Task</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>96824a7c97ead51081dd33271153afeb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Evidence Mgmt - Drug">c6824a7c97ead51081dd33271153afb9</workflow_version>
+        <x>199</x>
+        <y>56</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=96824a7c97ead51081dd33271153afeb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>96824a7c97ead51081dd33271153afeb</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>1a824a7c97ead51081dd33271153afeb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+        <value>var ptask = new GlideRecord('sn_niem_j_property_tasks');&#13;
+ptask.initialize(); &#13;
+ptask.active = true;&#13;
+ptask.priority = current.priority;&#13;
+ptask.property_id = current.sys_id;&#13;
+ptask.assigned_to = current.collected_by;&#13;
+ptask.short_description = 'Processing &amp; Preparation';&#13;
+ptask.description = '1. Perform Presumptive colorimetric test on sample to confirm if a substance could be illegal.\n2. Is evidence weight greater than the bulk threshold? If split off sample for lab testing.\n3. Package, seal and weigh the evidence.';&#13;
+ptask.insert();</value>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>96824a7c97ead51081dd33271153afeb</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>1a824a7c97ead51081dd33271153afeb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+        <value>var ptask = new GlideRecord('sn_niem_j_property_tasks');&#13;
+ptask.initialize(); &#13;
+ptask.active = true;&#13;
+ptask.priority = current.priority;&#13;
+ptask.property_id = current.sys_id;&#13;
+ptask.assigned_to = current.collected_by;&#13;
+ptask.short_description = 'Processing &amp; Preparation';&#13;
+ptask.description = '1. Perform Presumptive colorimetric test on sample to confirm if a substance could be illegal.\n2. Is evidence weight greater than the bulk threshold? If split off sample for lab testing.\n3. Package, seal and weigh the evidence.';&#13;
+ptask.insert();</value>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Create Processing &amp; Preparation Task">96824a7c97ead51081dd33271153afeb</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>1e824a7c97ead51081dd33271153afeb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>13</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Create Sample from Bulk Seizure</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>12824a7c97ead51081dd33271153afed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Evidence Mgmt - Drug">c6824a7c97ead51081dd33271153afb9</workflow_version>
+        <x>544</x>
+        <y>337</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=12824a7c97ead51081dd33271153afed"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>12824a7c97ead51081dd33271153afed</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>92824a7c97ead51081dd33271153afed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+        <value>var sam = new GlideRecord('sn_niem_j_drug');&#13;
+sam.initialize(); &#13;
+sam.active = true;&#13;
+sam.classification = 'sample';&#13;
+sam.priority = current.priority;&#13;
+sam.controlled_substance = current.controlled_substance;&#13;
+sam.description = current.description;&#13;
+sam.acquisition_method = current.acquisition_method;&#13;
+sam.collected_by = current.collected_by;&#13;
+sam.collection_date_time = current.collection_date_time;&#13;
+sam.collection_location = current.collection_location;&#13;
+sam.operation = current.operation;&#13;
+var samId = sam.insert();&#13;
+&#13;
+current.parent = samId;&#13;
+current.work_notes = ('Sample ' + samId.getDisplayValue() + 'has been created from this bulk seizure.');</value>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>12824a7c97ead51081dd33271153afed</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>92824a7c97ead51081dd33271153afed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+        <value>var sam = new GlideRecord('sn_niem_j_drug');&#13;
+sam.initialize(); &#13;
+sam.active = true;&#13;
+sam.classification = 'sample';&#13;
+sam.priority = current.priority;&#13;
+sam.controlled_substance = current.controlled_substance;&#13;
+sam.description = current.description;&#13;
+sam.acquisition_method = current.acquisition_method;&#13;
+sam.collected_by = current.collected_by;&#13;
+sam.collection_date_time = current.collection_date_time;&#13;
+sam.collection_location = current.collection_location;&#13;
+sam.operation = current.operation;&#13;
+var samId = sam.insert();&#13;
+&#13;
+current.parent = samId;&#13;
+current.work_notes = ('Sample ' + samId.getDisplayValue() + 'has been created from this bulk seizure.');</value>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Create Sample from Bulk Seizure">12824a7c97ead51081dd33271153afed</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>96824a7c97ead51081dd33271153afed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>4</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Create Validate and Verify Evidence Information Task</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>1e824a7c97ead51081dd33271153aff8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Evidence Mgmt - Drug">c6824a7c97ead51081dd33271153afb9</workflow_version>
+        <x>199</x>
+        <y>169</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=1e824a7c97ead51081dd33271153aff8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1e824a7c97ead51081dd33271153aff8</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>9e824a7c97ead51081dd33271153aff8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value>var ptask = new GlideRecord('sn_niem_j_property_tasks');&#13;
+ptask.initialize(); &#13;
+ptask.active = true;&#13;
+ptask.priority = current.priority;&#13;
+ptask.property_id = current.sys_id;&#13;
+ptask.assigned_to = current.collected_by;&#13;
+ptask.short_description = 'Validate and Verify All Evidence Information is correct';&#13;
+ptask.description = 'Validate and Verify All Evidence Information is correct';&#13;
+ptask.insert();</value>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1e824a7c97ead51081dd33271153aff8</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>9e824a7c97ead51081dd33271153aff8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value>var ptask = new GlideRecord('sn_niem_j_property_tasks');&#13;
+ptask.initialize(); &#13;
+ptask.active = true;&#13;
+ptask.priority = current.priority;&#13;
+ptask.property_id = current.sys_id;&#13;
+ptask.assigned_to = current.collected_by;&#13;
+ptask.short_description = 'Validate and Verify All Evidence Information is correct';&#13;
+ptask.description = 'Validate and Verify All Evidence Information is correct';&#13;
+ptask.insert();</value>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Create Validate and Verify Evidence Information Task">1e824a7c97ead51081dd33271153aff8</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>92824a7c97ead51081dd33271153aff9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>92824a7c97ead51081dd33271153afc3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="Evidence Mgmt - Drug">c6824a7c97ead51081dd33271153afb9</workflow_version>
+        <x>1711</x>
+        <y>611</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=92824a7c97ead51081dd33271153afc3"/>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>12</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Exceed Bulk Threshold</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>52824a7c97ead51081dd33271153afea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Evidence Mgmt - Drug">c6824a7c97ead51081dd33271153afb9</workflow_version>
+        <x>283</x>
+        <y>394</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=52824a7c97ead51081dd33271153afea"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>52824a7c97ead51081dd33271153afea</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>5a824a7c97ead51081dd33271153afea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+</value>
+        <variable display_value="Script">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>52824a7c97ead51081dd33271153afea</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>96824a7c97ead51081dd33271153afea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Advanced">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>52824a7c97ead51081dd33271153afea</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>d2824a7c97ead51081dd33271153afea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+        <value>seizure_type=Bulk^EQ</value>
+        <variable display_value="Condition">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>52824a7c97ead51081dd33271153afea</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>d2824a7c97ead51081dd33271153afea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+        <value>seizure_type=Bulk^EQ</value>
+        <variable display_value="Condition">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>52824a7c97ead51081dd33271153afea</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>96824a7c97ead51081dd33271153afea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Advanced">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>52824a7c97ead51081dd33271153afea</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>5a824a7c97ead51081dd33271153afea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+</value>
+        <variable display_value="Script">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Exceed Bulk Threshold">52824a7c97ead51081dd33271153afea</activity>
+        <condition>activity.result == 'no'</condition>
+        <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>No</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>de824a7c97ead51081dd33271153afea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Exceed Bulk Threshold">52824a7c97ead51081dd33271153afea</activity>
+        <condition>activity.result == 'yes'</condition>
+        <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Yes</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>5e824a7c97ead51081dd33271153afea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Approval - User">35433da80a0a029a0028c639a1e51eb4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>6</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Group Supervisor/RAC Approval Request</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>9a824a7c97ead51081dd33271153afee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Evidence Mgmt - Drug">c6824a7c97ead51081dd33271153afb9</workflow_version>
+        <x>426</x>
+        <y>721</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=9a824a7c97ead51081dd33271153afee"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a824a7c97ead51081dd33271153afee</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>12824a7c97ead51081dd33271153aff1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value>reject</value>
+        <variable display_value="When anyone rejects">502163410a6a803f0356332b24dc7945</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a824a7c97ead51081dd33271153afee</document_key>
+        <order>120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>16824a7c97ead51081dd33271153aff0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone based on">a77903a7c0a8006641af7c9b1d34444e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a824a7c97ead51081dd33271153afee</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>1a824a7c97ead51081dd33271153afef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone">a775f59ac0a8006665d72362ae687035</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a824a7c97ead51081dd33271153afee</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>1a824a7c97ead51081dd33271153aff2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule field">a774138dc0a80066000be7af20961c7d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a824a7c97ead51081dd33271153afee</document_key>
+        <order>1150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>1e824a7c97ead51081dd33271153aff1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value/>
+        <variable display_value="Due date field">a76b8c6ec0a800664bb14d5d8b9cd7c4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a824a7c97ead51081dd33271153afee</document_key>
+        <order>103</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>52824a7c97ead51081dd33271153aff0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value/>
+        <variable display_value="Document ID">e37b77ac0a0004f973283ad13b341c5b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a824a7c97ead51081dd33271153afee</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>52824a7c97ead51081dd33271153aff3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone field">a7781cb6c0a80066147dc7a5244d5d16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a824a7c97ead51081dd33271153afee</document_key>
+        <order>1370</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>56824a7c97ead51081dd33271153afef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value>// Set the variable 'answer' to '', 'approved' or 'rejected' to indicate the approval status for this approval.  When called, the following information is available:&#13;
+//&#13;
+//    counts.total = total number of users that are part of this approval&#13;
+//    counts.approved = # of users that approved so far&#13;
+//    counts.rejected = # of users that rejected so far&#13;
+//    counts.requested = # of users that are pending approval&#13;
+//    counts.not_requested = # of users that are not pending approval&#13;
+//    counts.not_required = # of users that approval is not required&#13;
+//&#13;
+</value>
+        <variable display_value="Approval Script">02c86d780a0a0b261e6a356bc893d348</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a824a7c97ead51081dd33271153afee</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>56824a7c97ead51081dd33271153aff2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value>any</value>
+        <variable display_value="Wait for">c35e5bdd0a0a0ba96248a709f495c9ae</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a824a7c97ead51081dd33271153afee</document_key>
+        <order>1120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>5a824a7c97ead51081dd33271153aff1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="Relative duration">a76c6257c0a8006645cff43883470e64</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a824a7c97ead51081dd33271153afee</document_key>
+        <order>330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>5e824a7c97ead51081dd33271153aff0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="Approval Journal Column">e863e3b80a0004f911d67787e77e0f16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a824a7c97ead51081dd33271153afee</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>92824a7c97ead51081dd33271153afef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Advanced">02ca01820a0a0b261cf923fb95f5e1d0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a824a7c97ead51081dd33271153afee</document_key>
+        <order>104</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>92824a7c97ead51081dd33271153aff2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value/>
+        <variable display_value="Document Table">e37a96e80a0004f978b47d2d6c5e0b22</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a824a7c97ead51081dd33271153afee</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>96824a7c97ead51081dd33271153aff1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value/>
+        <variable display_value="Condition">4485eef70a6a803f6bc4bafa9e999640</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a824a7c97ead51081dd33271153afee</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>9a824a7c97ead51081dd33271153aff0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value/>
+        <variable display_value="Users">c35e4cc40a0a0ba96248a7098ec9cb06</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a824a7c97ead51081dd33271153afee</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>9e824a7c97ead51081dd33271153afef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="Approval Column">e846198f0a0004f91fba434a514ba8b8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a824a7c97ead51081dd33271153afee</document_key>
+        <order>115</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>9e824a7c97ead51081dd33271153aff2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value/>
+        <variable display_value="Due date based on">a76680b9c0a8006661b107d0f21fae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a824a7c97ead51081dd33271153afee</document_key>
+        <order>1110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>d2824a7c97ead51081dd33271153aff1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value/>
+        <variable display_value="Duration">a769a182c0a8006629db7fa3fc2a863d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a824a7c97ead51081dd33271153afee</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>d6824a7c97ead51081dd33271153aff0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="Due date script">a782cde9c0a8006608f39abdd85c8395</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a824a7c97ead51081dd33271153afee</document_key>
+        <order>1330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>da824a7c97ead51081dd33271153afef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value>4b36b61e4782511024e32782846d436f</value>
+        <variable display_value="Groups">02c618170a0a0b26436f5c2c9f7a3901</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a824a7c97ead51081dd33271153afee</document_key>
+        <order>2050</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>da824a7c97ead51081dd33271153aff2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user ids and/or group ids or an array of user/group ids to add as approvers.&#13;
+//&#13;
+// For example:&#13;
+//       answer = [];&#13;
+//       answer.push('id1');&#13;
+//       answer.push('id2');&#13;
+</value>
+        <variable display_value="Additional approvers script">c35e582f0a0a0ba96248a70985207e63</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a824a7c97ead51081dd33271153afee</document_key>
+        <order>110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>de824a7c97ead51081dd33271153afee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule based on">a77191a4c0a800662b403f7dff5f1bbd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a824a7c97ead51081dd33271153afee</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>de824a7c97ead51081dd33271153aff1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule">a7754e91c0a800664938d0ef6d2664d7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a824a7c97ead51081dd33271153afee</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>96824a7c97ead51081dd33271153aff1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value/>
+        <variable display_value="Condition">4485eef70a6a803f6bc4bafa9e999640</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a824a7c97ead51081dd33271153afee</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>56824a7c97ead51081dd33271153aff2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value>any</value>
+        <variable display_value="Wait for">c35e5bdd0a0a0ba96248a709f495c9ae</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a824a7c97ead51081dd33271153afee</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>9e824a7c97ead51081dd33271153afef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="Approval Column">e846198f0a0004f91fba434a514ba8b8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a824a7c97ead51081dd33271153afee</document_key>
+        <order>103</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>52824a7c97ead51081dd33271153aff0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value/>
+        <variable display_value="Document ID">e37b77ac0a0004f973283ad13b341c5b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a824a7c97ead51081dd33271153afee</document_key>
+        <order>104</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>92824a7c97ead51081dd33271153aff2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value/>
+        <variable display_value="Document Table">e37a96e80a0004f978b47d2d6c5e0b22</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a824a7c97ead51081dd33271153afee</document_key>
+        <order>110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>de824a7c97ead51081dd33271153afee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule based on">a77191a4c0a800662b403f7dff5f1bbd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a824a7c97ead51081dd33271153afee</document_key>
+        <order>115</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>9e824a7c97ead51081dd33271153aff2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value/>
+        <variable display_value="Due date based on">a76680b9c0a8006661b107d0f21fae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a824a7c97ead51081dd33271153afee</document_key>
+        <order>120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>16824a7c97ead51081dd33271153aff0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone based on">a77903a7c0a8006641af7c9b1d34444e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a824a7c97ead51081dd33271153afee</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>9a824a7c97ead51081dd33271153aff0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value/>
+        <variable display_value="Users">c35e4cc40a0a0ba96248a7098ec9cb06</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a824a7c97ead51081dd33271153afee</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>12824a7c97ead51081dd33271153aff1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value>reject</value>
+        <variable display_value="When anyone rejects">502163410a6a803f0356332b24dc7945</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a824a7c97ead51081dd33271153afee</document_key>
+        <order>330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>5e824a7c97ead51081dd33271153aff0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="Approval Journal Column">e863e3b80a0004f911d67787e77e0f16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a824a7c97ead51081dd33271153afee</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>de824a7c97ead51081dd33271153aff1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule">a7754e91c0a800664938d0ef6d2664d7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a824a7c97ead51081dd33271153afee</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>1a824a7c97ead51081dd33271153aff2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule field">a774138dc0a80066000be7af20961c7d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a824a7c97ead51081dd33271153afee</document_key>
+        <order>1110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>d2824a7c97ead51081dd33271153aff1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value/>
+        <variable display_value="Duration">a769a182c0a8006629db7fa3fc2a863d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a824a7c97ead51081dd33271153afee</document_key>
+        <order>1120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>5a824a7c97ead51081dd33271153aff1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="Relative duration">a76c6257c0a8006645cff43883470e64</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a824a7c97ead51081dd33271153afee</document_key>
+        <order>1150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>1e824a7c97ead51081dd33271153aff1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value/>
+        <variable display_value="Due date field">a76b8c6ec0a800664bb14d5d8b9cd7c4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a824a7c97ead51081dd33271153afee</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>52824a7c97ead51081dd33271153aff3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone field">a7781cb6c0a80066147dc7a5244d5d16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a824a7c97ead51081dd33271153afee</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>1a824a7c97ead51081dd33271153afef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone">a775f59ac0a8006665d72362ae687035</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a824a7c97ead51081dd33271153afee</document_key>
+        <order>1330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>da824a7c97ead51081dd33271153afef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value>4b36b61e4782511024e32782846d436f</value>
+        <variable display_value="Groups">02c618170a0a0b26436f5c2c9f7a3901</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a824a7c97ead51081dd33271153afee</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>d6824a7c97ead51081dd33271153aff0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="Due date script">a782cde9c0a8006608f39abdd85c8395</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a824a7c97ead51081dd33271153afee</document_key>
+        <order>1370</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>56824a7c97ead51081dd33271153afef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value>// Set the variable 'answer' to '', 'approved' or 'rejected' to indicate the approval status for this approval.  When called, the following information is available:&#13;
+//&#13;
+//    counts.total = total number of users that are part of this approval&#13;
+//    counts.approved = # of users that approved so far&#13;
+//    counts.rejected = # of users that rejected so far&#13;
+//    counts.requested = # of users that are pending approval&#13;
+//    counts.not_requested = # of users that are not pending approval&#13;
+//    counts.not_required = # of users that approval is not required&#13;
+//&#13;
+</value>
+        <variable display_value="Approval Script">02c86d780a0a0b261e6a356bc893d348</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a824a7c97ead51081dd33271153afee</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>92824a7c97ead51081dd33271153afef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Advanced">02ca01820a0a0b261cf923fb95f5e1d0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>9a824a7c97ead51081dd33271153afee</document_key>
+        <order>2050</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>da824a7c97ead51081dd33271153aff2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user ids and/or group ids or an array of user/group ids to add as approvers.&#13;
+//&#13;
+// For example:&#13;
+//       answer = [];&#13;
+//       answer.push('id1');&#13;
+//       answer.push('id2');&#13;
+</value>
+        <variable display_value="Additional approvers script">c35e582f0a0a0ba96248a70985207e63</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Group Supervisor/RAC Approval Request">9a824a7c97ead51081dd33271153afee</activity>
+        <condition>activity.result == 'approved' || activity.result == 'skipped'</condition>
+        <condition_default display_value="Approved">586e1fa60a0a0b5c008121ab894f2b06</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Approved</name>
+        <order>2</order>
+        <short_description>Approval request was approved</short_description>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>d6824a7c97ead51081dd33271153aff3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Group Supervisor/RAC Approval Request">9a824a7c97ead51081dd33271153afee</activity>
+        <condition>activity.result == 'rejected'</condition>
+        <condition_default display_value="Rejected">586e4ef60a0a0b5c00440b56c014c8a5</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Rejected</name>
+        <order>1</order>
+        <short_description>Approval request was rejected</short_description>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>5a824a7c97ead51081dd33271153aff3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Approval Action">50a78fa50a6a803f66d064255f7201a5</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>8</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Rejected</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>da824a7c97ead51081dd33271153afbb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Evidence Mgmt - Drug">c6824a7c97ead51081dd33271153afb9</workflow_version>
+        <x>646</x>
+        <y>691</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=da824a7c97ead51081dd33271153afbb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>da824a7c97ead51081dd33271153afbb</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>d2824a7c97ead51081dd33271153afbc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+        <value>rejected</value>
+        <variable display_value="Action">50ab35f70a6a803f76d36e1ebaf3639e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>da824a7c97ead51081dd33271153afbb</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>d2824a7c97ead51081dd33271153afbc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+        <value>rejected</value>
+        <variable display_value="Action">50ab35f70a6a803f76d36e1ebaf3639e</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Rejected">da824a7c97ead51081dd33271153afbb</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>de824a7c97ead51081dd33271153afbc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Rollback To">bd5711773b230000dada82c09ccf3d0d</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>9</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Review Rollback</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>92824a7c97ead51081dd33271153afbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Evidence Mgmt - Drug">c6824a7c97ead51081dd33271153afb9</workflow_version>
+        <x>883</x>
+        <y>693</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=92824a7c97ead51081dd33271153afbf"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Review Rollback">92824a7c97ead51081dd33271153afbf</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>9a824a7c97ead51081dd33271153afbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>16</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Sample Check</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>5a824a7c97ead51081dd33271153afbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Evidence Mgmt - Drug">c6824a7c97ead51081dd33271153afb9</workflow_version>
+        <x>1172</x>
+        <y>182</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=5a824a7c97ead51081dd33271153afbd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5a824a7c97ead51081dd33271153afbd</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>16824a7c97ead51081dd33271153afbe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+</value>
+        <variable display_value="Script">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5a824a7c97ead51081dd33271153afbd</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>52824a7c97ead51081dd33271153afbe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Advanced">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5a824a7c97ead51081dd33271153afbd</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>9e824a7c97ead51081dd33271153afbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+        <value>classification=sample^EQ</value>
+        <variable display_value="Condition">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5a824a7c97ead51081dd33271153afbd</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>9e824a7c97ead51081dd33271153afbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+        <value>classification=sample^EQ</value>
+        <variable display_value="Condition">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5a824a7c97ead51081dd33271153afbd</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>52824a7c97ead51081dd33271153afbe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Advanced">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5a824a7c97ead51081dd33271153afbd</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>16824a7c97ead51081dd33271153afbe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+</value>
+        <variable display_value="Script">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Sample Check">5a824a7c97ead51081dd33271153afbd</activity>
+        <condition>activity.result == 'no'</condition>
+        <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>No</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>1e824a7c97ead51081dd33271153afbe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Sample Check">5a824a7c97ead51081dd33271153afbd</activity>
+        <condition>activity.result == 'yes'</condition>
+        <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Yes</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>9a824a7c97ead51081dd33271153afbe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>14</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Transfer Sample to Lab</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>5e824a7c97ead51081dd33271153afed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Evidence Mgmt - Drug">c6824a7c97ead51081dd33271153afb9</workflow_version>
+        <x>1436</x>
+        <y>154</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=5e824a7c97ead51081dd33271153afed"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5e824a7c97ead51081dd33271153afed</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>de824a7c97ead51081dd33271153afed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+        <value>var ptask = new GlideRecord('sn_niem_j_property_tasks');&#13;
+ptask.initialize(); &#13;
+ptask.active = true;&#13;
+ptask.priority = current.priority;&#13;
+ptask.property_id = current.sys_id;&#13;
+ptask.assigned_to = current.collected_by;&#13;
+ptask.short_description = 'Transport and Transfer Sample';&#13;
+ptask.description = 'Transport and transfer sample to the lab for additional testing.';&#13;
+ptask.insert();</value>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5e824a7c97ead51081dd33271153afed</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>de824a7c97ead51081dd33271153afed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+        <value>var ptask = new GlideRecord('sn_niem_j_property_tasks');&#13;
+ptask.initialize(); &#13;
+ptask.active = true;&#13;
+ptask.priority = current.priority;&#13;
+ptask.property_id = current.sys_id;&#13;
+ptask.assigned_to = current.collected_by;&#13;
+ptask.short_description = 'Transport and Transfer Sample';&#13;
+ptask.description = 'Transport and transfer sample to the lab for additional testing.';&#13;
+ptask.insert();</value>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Transfer Sample to Lab">5e824a7c97ead51081dd33271153afed</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>d2824a7c97ead51081dd33271153afee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>17</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Transfer to Evidence Storage</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>d2824a7c97ead51081dd33271153afec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Evidence Mgmt - Drug">c6824a7c97ead51081dd33271153afb9</workflow_version>
+        <x>1436</x>
+        <y>285</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=d2824a7c97ead51081dd33271153afec"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d2824a7c97ead51081dd33271153afec</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>56824a7c97ead51081dd33271153afec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+        <value>var ptask = new GlideRecord('sn_niem_j_property_tasks');&#13;
+ptask.initialize(); &#13;
+ptask.active = true;&#13;
+ptask.priority = current.priority;&#13;
+ptask.property_id = current.sys_id;&#13;
+ptask.assigned_to = current.collected_by;&#13;
+ptask.short_description = 'Transport and Transfer Evidence';&#13;
+ptask.description = 'Transport and transfer sample to evidence storage.';&#13;
+ptask.insert();</value>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d2824a7c97ead51081dd33271153afec</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>56824a7c97ead51081dd33271153afec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+        <value>var ptask = new GlideRecord('sn_niem_j_property_tasks');&#13;
+ptask.initialize(); &#13;
+ptask.active = true;&#13;
+ptask.priority = current.priority;&#13;
+ptask.property_id = current.sys_id;&#13;
+ptask.assigned_to = current.collected_by;&#13;
+ptask.short_description = 'Transport and Transfer Evidence';&#13;
+ptask.description = 'Transport and transfer sample to evidence storage.';&#13;
+ptask.insert();</value>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Transfer to Evidence Storage">d2824a7c97ead51081dd33271153afec</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>5a824a7c97ead51081dd33271153afec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>18</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Update Chain of Custody Record</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>92824a7c97ead51081dd33271153aff6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Evidence Mgmt - Drug">c6824a7c97ead51081dd33271153afb9</workflow_version>
+        <x>1666</x>
+        <y>229</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=92824a7c97ead51081dd33271153aff6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>92824a7c97ead51081dd33271153aff6</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>16824a7c97ead51081dd33271153aff6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value>var ptask = new GlideRecord('sn_niem_j_property_tasks');&#13;
+ptask.initialize(); &#13;
+ptask.active = true;&#13;
+ptask.priority = current.priority;&#13;
+ptask.property_id = current.sys_id;&#13;
+ptask.assigned_to = current.collected_by;&#13;
+ptask.short_description = 'Update Chain of Custody Record';&#13;
+ptask.description = 'Complete the transfer by updating the chain of cutody record.';&#13;
+ptask.insert();</value>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>92824a7c97ead51081dd33271153aff6</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>16824a7c97ead51081dd33271153aff6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value>var ptask = new GlideRecord('sn_niem_j_property_tasks');&#13;
+ptask.initialize(); &#13;
+ptask.active = true;&#13;
+ptask.priority = current.priority;&#13;
+ptask.property_id = current.sys_id;&#13;
+ptask.assigned_to = current.collected_by;&#13;
+ptask.short_description = 'Update Chain of Custody Record';&#13;
+ptask.description = 'Complete the transfer by updating the chain of cutody record.';&#13;
+ptask.insert();</value>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Update Chain of Custody Record">92824a7c97ead51081dd33271153aff6</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>1a824a7c97ead51081dd33271153aff6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>20</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Update Evidence State and Substate</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>de824a7c97ead51081dd33271153afc0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Evidence Mgmt - Drug">c6824a7c97ead51081dd33271153afb9</workflow_version>
+        <x>1668</x>
+        <y>465</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=de824a7c97ead51081dd33271153afc0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>de824a7c97ead51081dd33271153afc0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>16824a7c97ead51081dd33271153afc1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+        <value>state=custody^substate=available^work_notes=Evidence has been transferred to the evidence custodian team and evidence storage.^EQ</value>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>de824a7c97ead51081dd33271153afc0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>16824a7c97ead51081dd33271153afc1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+        <value>state=custody^substate=available^work_notes=Evidence has been transferred to the evidence custodian team and evidence storage.^EQ</value>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Update Evidence State and Substate">de824a7c97ead51081dd33271153afc0</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>9a824a7c97ead51081dd33271153afc1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>15</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Update Evidence Substate</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>de824a7c97ead51081dd33271153aff6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Evidence Mgmt - Drug">c6824a7c97ead51081dd33271153afb9</workflow_version>
+        <x>953</x>
+        <y>805</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=de824a7c97ead51081dd33271153aff6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>de824a7c97ead51081dd33271153aff6</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>52824a7c97ead51081dd33271153aff7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value>substate=pending transfered^EQ</value>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>de824a7c97ead51081dd33271153aff6</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>52824a7c97ead51081dd33271153aff7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value>substate=pending transfered^EQ</value>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Update Evidence Substate">de824a7c97ead51081dd33271153aff6</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>56824a7c97ead51081dd33271153aff7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>10</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Updated Approval Status</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>16824a7c97ead51081dd33271153afe9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Evidence Mgmt - Drug">c6824a7c97ead51081dd33271153afb9</workflow_version>
+        <x>202</x>
+        <y>645</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=16824a7c97ead51081dd33271153afe9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>16824a7c97ead51081dd33271153afe9</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>96824a7c97ead51081dd33271153afe9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+        <value>approval=not requested^EQ</value>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>16824a7c97ead51081dd33271153afe9</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>96824a7c97ead51081dd33271153afe9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+        <value>approval=not requested^EQ</value>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Updated Approval Status">16824a7c97ead51081dd33271153afe9</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>9a824a7c97ead51081dd33271153afe9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Wait for condition">d93a02ae0a0a0aa30077abad3fdac035</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>19</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Wait for Tasks to Complete</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>12824a7c97ead51081dd33271153aff4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Evidence Mgmt - Drug">c6824a7c97ead51081dd33271153afb9</workflow_version>
+        <x>1669</x>
+        <y>369</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=12824a7c97ead51081dd33271153aff4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>12824a7c97ead51081dd33271153aff4</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>1a824a7c97ead51081dd33271153aff4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value/>
+        <variable display_value="Condition">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>12824a7c97ead51081dd33271153aff4</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>56824a7c97ead51081dd33271153aff4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value>checkCatalogTasks();&#13;
+&#13;
+function checkCatalogTasks() {&#13;
+	var grTask = new GlideRecord('sn_niem_j_property_tasks');&#13;
+	grTask.addQuery('property_id', current.sys_id);&#13;
+	grTask.addQuery('active', true);&#13;
+	grTask.query();&#13;
+&#13;
+	if (grTask.hasNext()) {&#13;
+		answer = false;&#13;
+	} else {&#13;
+		answer = true;&#13;
+	}&#13;
+}</value>
+        <variable display_value="Condition script">c35debce0a0a0ba96248a709440cf31a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>12824a7c97ead51081dd33271153aff4</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>1a824a7c97ead51081dd33271153aff4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value/>
+        <variable display_value="Condition">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>12824a7c97ead51081dd33271153aff4</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>56824a7c97ead51081dd33271153aff4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value>checkCatalogTasks();&#13;
+&#13;
+function checkCatalogTasks() {&#13;
+	var grTask = new GlideRecord('sn_niem_j_property_tasks');&#13;
+	grTask.addQuery('property_id', current.sys_id);&#13;
+	grTask.addQuery('active', true);&#13;
+	grTask.query();&#13;
+&#13;
+	if (grTask.hasNext()) {&#13;
+		answer = false;&#13;
+	} else {&#13;
+		answer = true;&#13;
+	}&#13;
+}</value>
+        <variable display_value="Condition script">c35debce0a0a0ba96248a709440cf31a</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Wait for Tasks to Complete">12824a7c97ead51081dd33271153aff4</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>9e824a7c97ead51081dd33271153aff4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Wait for condition">d93a02ae0a0a0aa30077abad3fdac035</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>5</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Wait for Tasks to Complete</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>1e824a7c97ead51081dd33271153aff7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Evidence Mgmt - Drug">c6824a7c97ead51081dd33271153afb9</workflow_version>
+        <x>199</x>
+        <y>285</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=1e824a7c97ead51081dd33271153aff7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1e824a7c97ead51081dd33271153aff7</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>52824a7c97ead51081dd33271153aff8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value/>
+        <variable display_value="Condition">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1e824a7c97ead51081dd33271153aff7</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>9e824a7c97ead51081dd33271153aff7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value>checkCatalogTasks();&#13;
+&#13;
+function checkCatalogTasks() {&#13;
+	var grTask = new GlideRecord('sn_niem_j_property_tasks');&#13;
+	grTask.addQuery('property_id', current.sys_id);&#13;
+	grTask.addQuery('active', true);&#13;
+	grTask.query();&#13;
+&#13;
+	if (grTask.hasNext()) {&#13;
+		answer = false;&#13;
+	} else {&#13;
+		answer = true;&#13;
+	}&#13;
+}</value>
+        <variable display_value="Condition script">c35debce0a0a0ba96248a709440cf31a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1e824a7c97ead51081dd33271153aff7</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>52824a7c97ead51081dd33271153aff8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value/>
+        <variable display_value="Condition">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>1e824a7c97ead51081dd33271153aff7</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>9e824a7c97ead51081dd33271153aff7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <value>checkCatalogTasks();&#13;
+&#13;
+function checkCatalogTasks() {&#13;
+	var grTask = new GlideRecord('sn_niem_j_property_tasks');&#13;
+	grTask.addQuery('property_id', current.sys_id);&#13;
+	grTask.addQuery('active', true);&#13;
+	grTask.query();&#13;
+&#13;
+	if (grTask.hasNext()) {&#13;
+		answer = false;&#13;
+	} else {&#13;
+		answer = true;&#13;
+	}&#13;
+}</value>
+        <variable display_value="Condition script">c35debce0a0a0ba96248a709440cf31a</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Wait for Tasks to Complete">1e824a7c97ead51081dd33271153aff7</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>56824a7c97ead51081dd33271153aff8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+    </wf_condition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">9a824a7c97ead51081dd33271153afe9</condition>
+        <from display_value="Updated Approval Status">16824a7c97ead51081dd33271153afe9</from>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>12824a7c97ead51081dd33271153affd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <to display_value="Group Supervisor/RAC Approval Request">9a824a7c97ead51081dd33271153afee</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">9a824a7c97ead51081dd33271153afc1</condition>
+        <from display_value="Update Evidence State and Substate">de824a7c97ead51081dd33271153afc0</from>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>12824a7c97ead51081dd33271153affe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <to display_value="End">92824a7c97ead51081dd33271153afc3</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">56824a7c97ead51081dd33271153aff7</condition>
+        <from display_value="Update Evidence Substate">de824a7c97ead51081dd33271153aff6</from>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>16824a7c97ead51081dd33271153affc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <to display_value="Sample Check">5a824a7c97ead51081dd33271153afbd</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Yes">9a824a7c97ead51081dd33271153afbe</condition>
+        <from display_value="Sample Check">5a824a7c97ead51081dd33271153afbd</from>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>1a824a7c97ead51081dd33271153affa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <to display_value="Transfer Sample to Lab">5e824a7c97ead51081dd33271153afed</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Yes">5e824a7c97ead51081dd33271153afea</condition>
+        <from display_value="Exceed Bulk Threshold">52824a7c97ead51081dd33271153afea</from>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>1e824a7c97ead51081dd33271153affb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <to display_value="Create Sample from Bulk Seizure">12824a7c97ead51081dd33271153afed</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Rejected">5a824a7c97ead51081dd33271153aff3</condition>
+        <from display_value="Group Supervisor/RAC Approval Request">9a824a7c97ead51081dd33271153afee</from>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>52824a7c97ead51081dd33271153affb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <to display_value="Rejected">da824a7c97ead51081dd33271153afbb</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">96824a7c97ead51081dd33271153afed</condition>
+        <from display_value="Create Sample from Bulk Seizure">12824a7c97ead51081dd33271153afed</from>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>52824a7c97ead51081dd33271153affc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <to display_value="Auto-generate DEA 7 Form">52824a7c97ead51081dd33271153afc2</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">56824a7c97ead51081dd33271153aff8</condition>
+        <from display_value="Wait for Tasks to Complete">1e824a7c97ead51081dd33271153aff7</from>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>5a824a7c97ead51081dd33271153affb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <to display_value="Exceed Bulk Threshold">52824a7c97ead51081dd33271153afea</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">1a824a7c97ead51081dd33271153aff6</condition>
+        <from display_value="Update Chain of Custody Record">92824a7c97ead51081dd33271153aff6</from>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>5e824a7c97ead51081dd33271153affc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <to display_value="Wait for Tasks to Complete">12824a7c97ead51081dd33271153aff4</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">de824a7c97ead51081dd33271153afbc</condition>
+        <from display_value="Rejected">da824a7c97ead51081dd33271153afbb</from>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>5e824a7c97ead51081dd33271153affd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <to display_value="Review Rollback">92824a7c97ead51081dd33271153afbf</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">9e824a7c97ead51081dd33271153aff4</condition>
+        <from display_value="Wait for Tasks to Complete">12824a7c97ead51081dd33271153aff4</from>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>96824a7c97ead51081dd33271153affb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <to display_value="Update Evidence State and Substate">de824a7c97ead51081dd33271153afc0</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">1a824a7c97ead51081dd33271153afc0</condition>
+        <from display_value="Begin">12824a7c97ead51081dd33271153afc0</from>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>96824a7c97ead51081dd33271153affe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <to display_value="Create Processing &amp; Preparation Task">96824a7c97ead51081dd33271153afeb</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">5a824a7c97ead51081dd33271153afec</condition>
+        <from display_value="Transfer to Evidence Storage">d2824a7c97ead51081dd33271153afec</from>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>9a824a7c97ead51081dd33271153affc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <to display_value="Update Chain of Custody Record">92824a7c97ead51081dd33271153aff6</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">d2824a7c97ead51081dd33271153afee</condition>
+        <from display_value="Transfer Sample to Lab">5e824a7c97ead51081dd33271153afed</from>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>9a824a7c97ead51081dd33271153affd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <to display_value="Update Chain of Custody Record">92824a7c97ead51081dd33271153aff6</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">1e824a7c97ead51081dd33271153afc2</condition>
+        <from display_value="Auto-generate DEA 7 Form">52824a7c97ead51081dd33271153afc2</from>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>9e824a7c97ead51081dd33271153affa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <to display_value="Updated Approval Status">16824a7c97ead51081dd33271153afe9</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="No">de824a7c97ead51081dd33271153afea</condition>
+        <from display_value="Exceed Bulk Threshold">52824a7c97ead51081dd33271153afea</from>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>9e824a7c97ead51081dd33271153affb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <to display_value="Auto-generate DEA 7 Form">52824a7c97ead51081dd33271153afc2</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Approved">d6824a7c97ead51081dd33271153aff3</condition>
+        <from display_value="Group Supervisor/RAC Approval Request">9a824a7c97ead51081dd33271153afee</from>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>d2824a7c97ead51081dd33271153affb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <to display_value="Approved">56824a7c97ead51081dd33271153aff5</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">da824a7c97ead51081dd33271153aff5</condition>
+        <from display_value="Approved">56824a7c97ead51081dd33271153aff5</from>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>d2824a7c97ead51081dd33271153affd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <to display_value="Update Evidence Substate">de824a7c97ead51081dd33271153aff6</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">9a824a7c97ead51081dd33271153afbf</condition>
+        <from display_value="Review Rollback">92824a7c97ead51081dd33271153afbf</from>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>d2824a7c97ead51081dd33271153affe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <to display_value="Create Validate and Verify Evidence Information Task">1e824a7c97ead51081dd33271153aff8</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">92824a7c97ead51081dd33271153aff9</condition>
+        <from display_value="Create Validate and Verify Evidence Information Task">1e824a7c97ead51081dd33271153aff8</from>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>d6824a7c97ead51081dd33271153affc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <to display_value="Wait for Tasks to Complete">1e824a7c97ead51081dd33271153aff7</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">1e824a7c97ead51081dd33271153afeb</condition>
+        <from display_value="Create Processing &amp; Preparation Task">96824a7c97ead51081dd33271153afeb</from>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>d6824a7c97ead51081dd33271153affd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <to display_value="Create Validate and Verify Evidence Information Task">1e824a7c97ead51081dd33271153aff8</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="No">1e824a7c97ead51081dd33271153afbe</condition>
+        <from display_value="Sample Check">5a824a7c97ead51081dd33271153afbd</from>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:57</sys_created_on>
+        <sys_id>da824a7c97ead51081dd33271153affa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:57</sys_updated_on>
+        <to display_value="Transfer to Evidence Storage">d2824a7c97ead51081dd33271153afec</to>
+    </wf_transition>
+    <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-12 15:56:56</sys_created_on>
+        <sys_id>ca824a7c97ead51081dd33271153afb9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-12 15:56:56</sys_updated_on>
+        <workflow_version display_value="Evidence Mgmt - Drug">c6824a7c97ead51081dd33271153afb9</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="update_multiple" query="workflow=3c74dcac976e551081dd33271153af13^sys_id!=c6824a7c97ead51081dd33271153afb9">
+        <published>false</published>
+    </wf_workflow_version>
+</record_update>

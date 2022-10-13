@@ -2,17 +2,45 @@
     <sys_ui_related sys_domain="global" table="sn_niem_j_property" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Property - Default view" name="sn_niem_j_property" related_list="NULL" sys_domain="global" view="Default view">c49d589a971e115081dd33271153af34</list_id>
+            <list_id display_value="Property - Default view" name="sn_niem_j_property" related_list="NULL" sys_domain="global" view="Default view">a400741f9716955081dd33271153af87</list_id>
             <order_by/>
             <position>0</position>
+            <related_list>REL:f25fe0db9716955081dd33271153af2b</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-07 18:05:30</sys_created_on>
+            <sys_id>e000741f9716955081dd33271153af88</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-10-07 18:05:30</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Property - Default view" name="sn_niem_j_property" related_list="NULL" sys_domain="global" view="Default view">a400741f9716955081dd33271153af87</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>sn_niem_j_property_tasks.property_id</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-07 18:05:30</sys_created_on>
+            <sys_id>e400741f9716955081dd33271153af88</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-10-07 18:05:30</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Property - Default view" name="sn_niem_j_property" related_list="NULL" sys_domain="global" view="Default view">a400741f9716955081dd33271153af87</list_id>
+            <order_by/>
+            <position>2</position>
             <related_list>sn_niem_j_custody.property</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-10-04 14:10:59</sys_created_on>
-            <sys_id>409d589a971e115081dd33271153af36</sys_id>
+            <sys_created_on>2022-10-07 18:05:30</sys_created_on>
+            <sys_id>e800741f9716955081dd33271153af88</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-10-04 14:10:59</sys_updated_on>
+            <sys_updated_on>2022-10-07 18:05:30</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>Property - Default view</calculated_name>
@@ -23,10 +51,10 @@
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-10-04 14:10:59</sys_created_on>
+            <sys_created_on>2022-10-07 18:05:30</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>c49d589a971e115081dd33271153af34</sys_id>
+            <sys_id>a400741f9716955081dd33271153af87</sys_id>
             <sys_name>Property - Default view</sys_name>
             <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
             <sys_policy/>

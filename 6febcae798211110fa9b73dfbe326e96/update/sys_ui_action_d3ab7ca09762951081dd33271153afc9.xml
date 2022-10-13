@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>generatePDF</action_name>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+	// This references the value in the "Action name" field in the UI Action record
+	var actionName = g_form.getActionName();
+	g_form.submit(actionName);
+}]]></client_script_v2>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>true</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>true</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Generate DEA 7</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[generatePDF();
+current.update();
+action.setRedirectURL(current);
+
+function generatePDF(){
+    //-------------------------------------------------------------------------------------------------
+    // Upload and create a Managed Document record using a fillable PDF in order to get the sys_id
+    //-------------------------------------------------------------------------------------------------
+    var pdfSysId = 'e548496497a2951081dd33271153af7f';
+    
+    //-------------------------------------------------------------------------------------------------
+    // Getting values from the current record
+    //-------------------------------------------------------------------------------------------------
+    var currentDate = new GlideDate().getDisplayValue();
+    var currentRecord = current.sys_id;
+    var collectedDate = current.collection_date_time.getDisplayValue();
+    var evidenceNum = current.number.getDisplayValue();
+    var evidenceName = current.short_description.getDisplayValue();
+    var collectedLoc = current.collection_location.getDisplayValue();
+	var infoOnlyNo = 'Yes';
+	var infoOnlyYes;
+    var acqMethod = current.acquisition_method.getDisplayValue();
+    var referringAgency = 'DEA';
+    var caseNum = current.operation.case.getDisplayValue();
+    var operationNum = current.operation.getDisplayValue();
+	var seizureType = current.seizure_type.getDisplayValue();
+	//var seizureType = 'Bulk';
+    var bulkSeizureYes;
+	var bulkSeizureNo;
+	var identifyBulk;
+	var identifyThreshold;
+	var remarks = ('Property Tag: ' + current.property_id.getDisplayValue() + '\nEvidence #: ' + current.item.getDisplayValue());
+    var specialAgent = current.operation.case.assigned_to.getDisplayValue();
+    var saManager = current.operation.case.assigned_to.manager.getDisplayValue();
+    
+	//How Obtained check
+    if (acqMethod == 'Purchase') {
+        var obtainedPurchase = 'Yes';
+    } else if (acqMethod == 'Seizure') {
+        var obtainedSeized = 'Yes';
+    } else if (acqMethod == 'Compliance Sample') {
+        var obtainedCompliance = 'Yes';
+    } else if (acqMethod == 'Free Sample') {
+        var obtainedFreeSample = 'Yes';
+    } else if (acqMethod == 'Clandestine Lab Seizure') {
+        var obtainedClandestineLabSeizure = 'Yes';
+    }
+    
+    //Bulk Seizure check
+    if (seizureType == 'Bulk') {
+		bulkSeizureYes = 'Yes';
+		identifyBulk = 'Yes';
+    } else {
+		bulkSeizureNo = 'Yes';
+		identifyThreshold = 'Yes';
+    }
+       
+    //-------------------------------------------------------------------------------------------------
+    // Creating the JSON object to store values from a record and mapped fields from PDF
+    // <PDF TEMPLATE FIELD NAME> : <VARIABLE OR RECORD FIELD VALUE>
+    //-------------------------------------------------------------------------------------------------  	
+    var jsonObject = {
+        "DatePrepared":currentDate, 
+        "FileNumber":operationNum,
+        "FileTitle":evidenceName,
+        "DEACustody":collectedDate,
+        "CollectedLocation":collectedLoc,
+		"InfoOnlyNo":infoOnlyNo,
+		"InfoOnlyYes":infoOnlyYes,
+        "ObtainedPurchase":obtainedPurchase,
+        "ObtainedSeized":obtainedSeized,
+        "ObtainedCompliance":obtainedCompliance,
+        "ObtainedFreeSample":obtainedFreeSample,
+        "ObtainedClandestineLabSeizure":obtainedClandestineLabSeizure,
+        "ReferringAgency":referringAgency,
+        "CaseNumber":caseNum,
+        "SeizureNumber":evidenceNum,
+        "BulkSeizureYes":bulkSeizureYes,
+        "BulkSeizureNo":bulkSeizureNo,
+        "IdentifyThreshold":identifyThreshold,
+        "IdentifyBulk":identifyBulk,
+        "Remarks":remarks,
+        "SpecialAgentName":specialAgent,
+        "SpecialAgentSupervisor":saManager
+    };
+
+    //-------------------------------------------------------------------------------------------------
+    // Create and attach PDF to current record
+    //-------------------------------------------------------------------------------------------------
+    var jsonString = JSON.stringify(jsonObject);
+    var destinationTableName = 'sn_niem_j_drug';
+    var destinationTableSysId = currentRecord;
+    var pdfName = ("DEA7_" + evidenceName + ".pdf");
+
+    var pdf = new global.GeneralPdfUtils();
+    pdf.prefillPdf(jsonString, destinationTableSysId, pdfSysId, destinationTableName, pdfName);
+
+    var gr =new GlideRecord('sys_attachment');
+    gr.addQuery('table_sys_id',currentRecord);
+    gr.query();
+
+    while(gr.next()){
+        gr.attachmentID = gr.getUniqueValue();   
+    }
+}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-11 16:11:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d3ab7ca09762951081dd33271153afc9</sys_id>
+        <sys_name>Generate DEA 7</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_update_name>sys_ui_action_d3ab7ca09762951081dd33271153afc9</sys_update_name>
+        <table>sn_niem_j_drug</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

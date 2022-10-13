@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>controlled_substance.other_names</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 14:47:17</sys_created_on>
+        <sys_id>1f09fa3e9716155081dd33271153af47</sys_id>
+        <sys_name>controlled_substance.other_names</sys_name>
+        <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_update_name>sys_ui_policy_action_1f09fa3e9716155081dd33271153af47</sys_update_name>
+        <table>sn_niem_j_drug</table>
+        <ui_policy display_value="Drug Mandatory Fields">d9b7faba9716155081dd33271153af9d</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

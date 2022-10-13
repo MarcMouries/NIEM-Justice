@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>storage_location</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 17:00:47</sys_created_on>
+        <sys_id>45975f3697d6155081dd33271153afca</sys_id>
+        <sys_name>storage_location</sys_name>
+        <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_update_name>sys_ui_policy_action_45975f3697d6155081dd33271153afca</sys_update_name>
+        <table>sn_niem_j_property</table>
+        <ui_policy display_value="Storage Location Required">e437d33697d6155081dd33271153afa7</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

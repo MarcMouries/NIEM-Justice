@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="short_description" label="Substance Name" language="en" table="sn_niem_j_drug">
+    <sys_documentation element="chain_of_custody" label="Chain of Custody" language="en" table="sn_niem_j_property">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>short_description</element>
+            <element>chain_of_custody</element>
             <help/>
             <hint/>
-            <label>Substance Name</label>
+            <label>Chain of Custody</label>
             <language>en</language>
-            <name>sn_niem_j_drug</name>
-            <plural>Substance Names</plural>
+            <name>sn_niem_j_property</name>
+            <plural>Chain of Custodies</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-10-04 14:36:26</sys_created_on>
-            <sys_name>Substance Name</sys_name>
+            <sys_created_on>2022-10-06 18:45:11</sys_created_on>
+            <sys_name>Chain of Custody</sys_name>
             <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
             <sys_policy/>
             <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
-            <sys_update_name>sys_documentation_sn_niem_j_drug_short_description_en</sys_update_name>
+            <sys_update_name>sys_documentation_sn_niem_j_property_chain_of_custody_en</sys_update_name>
             <url/>
             <url_target/>
         </sys_documentation>

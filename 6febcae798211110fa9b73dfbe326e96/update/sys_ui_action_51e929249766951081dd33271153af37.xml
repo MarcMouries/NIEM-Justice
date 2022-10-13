@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+	var id = g_form.getUniqueValue().toString();
+	var table = g_form.getTableName();
+	var wf = ("/context_workflow.do?sysparm_stack=no&sysparm_table="+table+"&sysparm_document="+id);
+	openUrl(wf);
+}
+function openUrl(url) {
+	var win = top.window.open(url,'_blank');
+	win.focus();
+}]]></client_script_v2>
+        <comments/>
+        <condition>!current.isNewRecord() &amp;&amp; (new global.Workflow().hasWorkflow(current))</condition>
+        <form_action>true</form_action>
+        <form_button>false</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>true</form_link>
+        <form_menu_button_v2>true</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>true</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>true</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Show Workflow</name>
+        <onclick>showWorkflowContext()</onclick>
+        <order>100</order>
+        <script><![CDATA[// Show the workflow context in a new window
+function showWorkflowContext() {
+   var id = g_form.getUniqueValue().toString();
+   var url = new GlideURL('context_workflow.do');
+   url.addParam('sysparm_stack', 'no');
+   url.addParam('sysparm_table', g_form.getTableName());
+   url.addParam('sysparm_document', id);
+   g_navigation.open(url.getURL(), "_blank");
+}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-11 19:32:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>51e929249766951081dd33271153af37</sys_id>
+        <sys_name>Show Workflow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_update_name>sys_ui_action_51e929249766951081dd33271153af37</sys_update_name>
+        <table>sn_niem_j_property</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_template">
+    <sys_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <global>false</global>
+        <group/>
+        <groups/>
+        <link_element/>
+        <name>Drug Evidence 1</name>
+        <next/>
+        <next_child/>
+        <roles/>
+        <short_description/>
+        <show_on_template_bar>true</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sys_template</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-11 19:41:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>194cede49766951081dd33271153af5d</sys_id>
+        <sys_name>Drug Evidence 1</sys_name>
+        <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_update_name>sys_template_194cede49766951081dd33271153af5d</sys_update_name>
+        <table>sn_niem_j_drug</table>
+        <template>acquisition_method=Seizure^classification=evidence^collected_by=11e21085471e5d1024e32782846d4326^collection_date_time=10-07-2022 02:50:50 PM^collection_location=d85c8baf9782551081dd33271153af1e^controlled_substance=23389c51477d115024e32782846d43aa^item=01^operation=e0a8009a979a115081dd33271153afc3^priority=4^property_id=335463465^property_value=javascript:global.getCurrencyFilter('sn_niem_j_drug','property_value', 'USD;0.00')^state=transit^substate=pending transfered^unit_of_measure_system=metric^weight=100^weight_unit=kg^EQ</template>
+        <user display_value="Steven Ly">43d63f604765511024e32782846d430b</user>
+        <view/>
+    </sys_template>
+</record_update>

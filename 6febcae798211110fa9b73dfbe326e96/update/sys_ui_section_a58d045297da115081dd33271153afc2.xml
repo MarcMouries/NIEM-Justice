@@ -4,97 +4,111 @@
             <element>acquisition_method</element>
             <position>0</position>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-10-04 18:51:38</sys_created_on>
-            <sys_id>03cd195a97d2515081dd33271153afe8</sys_id>
+            <sys_created_on>2022-10-11 17:24:44</sys_created_on>
+            <sys_id>6e0d4d2c97a2951081dd33271153afe9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Evidence Details" display_value="Evidence Details" name="sn_niem_j_property" sys_domain="global" view="Default view">a58d045297da115081dd33271153afc2</sys_ui_section>
             <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-10-04 18:51:38</sys_updated_on>
+            <sys_updated_on>2022-10-11 17:24:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>seizure_type</element>
+            <position>1</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-11 17:24:44</sys_created_on>
+            <sys_id>620d4d2c97a2951081dd33271153afea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Evidence Details" display_value="Evidence Details" name="sn_niem_j_property" sys_domain="global" view="Default view">a58d045297da115081dd33271153afc2</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-10-11 17:24:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>property_id</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-10-04 18:51:38</sys_created_on>
-            <sys_id>07cd195a97d2515081dd33271153afe8</sys_id>
+            <sys_created_on>2022-10-11 17:24:44</sys_created_on>
+            <sys_id>660d4d2c97a2951081dd33271153afea</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Evidence Details" display_value="Evidence Details" name="sn_niem_j_property" sys_domain="global" view="Default view">a58d045297da115081dd33271153afc2</sys_ui_section>
             <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-10-04 18:51:38</sys_updated_on>
+            <sys_updated_on>2022-10-11 17:24:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>item</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-10-04 18:51:38</sys_created_on>
-            <sys_id>0bcd195a97d2515081dd33271153afe8</sys_id>
+            <sys_created_on>2022-10-11 17:24:44</sys_created_on>
+            <sys_id>6a0d4d2c97a2951081dd33271153afea</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Evidence Details" display_value="Evidence Details" name="sn_niem_j_property" sys_domain="global" view="Default view">a58d045297da115081dd33271153afc2</sys_ui_section>
             <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-10-04 18:51:38</sys_updated_on>
+            <sys_updated_on>2022-10-11 17:24:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-10-04 18:51:38</sys_created_on>
-            <sys_id>0fcd195a97d2515081dd33271153afe8</sys_id>
+            <sys_created_on>2022-10-11 17:24:44</sys_created_on>
+            <sys_id>6e0d4d2c97a2951081dd33271153afea</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Evidence Details" display_value="Evidence Details" name="sn_niem_j_property" sys_domain="global" view="Default view">a58d045297da115081dd33271153afc2</sys_ui_section>
             <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-10-04 18:51:38</sys_updated_on>
+            <sys_updated_on>2022-10-11 17:24:44</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>collected_by</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-10-04 18:51:38</sys_created_on>
-            <sys_id>03cd195a97d2515081dd33271153afe9</sys_id>
+            <sys_created_on>2022-10-11 17:24:44</sys_created_on>
+            <sys_id>620d4d2c97a2951081dd33271153afeb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Evidence Details" display_value="Evidence Details" name="sn_niem_j_property" sys_domain="global" view="Default view">a58d045297da115081dd33271153afc2</sys_ui_section>
             <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-10-04 18:51:38</sys_updated_on>
+            <sys_updated_on>2022-10-11 17:24:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>collection_date_time</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-10-04 18:51:38</sys_created_on>
-            <sys_id>07cd195a97d2515081dd33271153afe9</sys_id>
+            <sys_created_on>2022-10-11 17:24:44</sys_created_on>
+            <sys_id>660d4d2c97a2951081dd33271153afeb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Evidence Details" display_value="Evidence Details" name="sn_niem_j_property" sys_domain="global" view="Default view">a58d045297da115081dd33271153afc2</sys_ui_section>
             <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-10-04 18:51:38</sys_updated_on>
+            <sys_updated_on>2022-10-11 17:24:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>collection_location</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>steven.ly</sys_created_by>
-            <sys_created_on>2022-10-04 18:51:38</sys_created_on>
-            <sys_id>0bcd195a97d2515081dd33271153afe9</sys_id>
+            <sys_created_on>2022-10-11 17:24:44</sys_created_on>
+            <sys_id>6a0d4d2c97a2951081dd33271153afeb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Evidence Details" display_value="Evidence Details" name="sn_niem_j_property" sys_domain="global" view="Default view">a58d045297da115081dd33271153afc2</sys_ui_section>
             <sys_updated_by>steven.ly</sys_updated_by>
-            <sys_updated_on>2022-10-04 18:51:38</sys_updated_on>
+            <sys_updated_on>2022-10-11 17:24:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

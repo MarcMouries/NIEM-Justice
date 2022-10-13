@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="de5e3fba979a155081dd33271153af36" sys_domain="global" table="sn_niem_j_drug" version="3" view="new_playbook">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>operation</element>
+            <position>0</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-06 19:54:00</sys_created_on>
+            <sys_id>404fbffa979a155081dd33271153afbd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_j_drug" sys_domain="global" view="da5e3bba979a155081dd33271153af34">de5e3fba979a155081dd33271153af36</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-10-06 19:54:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>controlled_substance</element>
+            <position>1</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-06 19:54:00</sys_created_on>
+            <sys_id>444fbffa979a155081dd33271153afbd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_j_drug" sys_domain="global" view="da5e3bba979a155081dd33271153af34">de5e3fba979a155081dd33271153af36</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-10-06 19:54:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>2</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-06 19:54:00</sys_created_on>
+            <sys_id>484fbffa979a155081dd33271153afbd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_j_drug" sys_domain="global" view="da5e3bba979a155081dd33271153af34">de5e3fba979a155081dd33271153af36</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-10-06 19:54:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>3</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-06 19:54:00</sys_created_on>
+            <sys_id>5c4fbffa979a155081dd33271153afbd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_j_drug" sys_domain="global" view="da5e3bba979a155081dd33271153af34">de5e3fba979a155081dd33271153af36</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-10-06 19:54:00</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>acquisition_method</element>
+            <position>4</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-06 19:54:00</sys_created_on>
+            <sys_id>504fbffa979a155081dd33271153afbe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_j_drug" sys_domain="global" view="da5e3bba979a155081dd33271153af34">de5e3fba979a155081dd33271153af36</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-10-06 19:54:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>property_id</element>
+            <position>5</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-06 19:54:00</sys_created_on>
+            <sys_id>544fbffa979a155081dd33271153afbe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_j_drug" sys_domain="global" view="da5e3bba979a155081dd33271153af34">de5e3fba979a155081dd33271153af36</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-10-06 19:54:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>item</element>
+            <position>6</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-06 19:54:00</sys_created_on>
+            <sys_id>584fbffa979a155081dd33271153afbe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_j_drug" sys_domain="global" view="da5e3bba979a155081dd33271153af34">de5e3fba979a155081dd33271153af36</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-10-06 19:54:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>weight</element>
+            <position>7</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-06 19:54:00</sys_created_on>
+            <sys_id>5c4fbffa979a155081dd33271153afbe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_j_drug" sys_domain="global" view="da5e3bba979a155081dd33271153af34">de5e3fba979a155081dd33271153af36</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-10-06 19:54:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>volume</element>
+            <position>8</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-06 19:54:00</sys_created_on>
+            <sys_id>504fbffa979a155081dd33271153afbf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_j_drug" sys_domain="global" view="da5e3bba979a155081dd33271153af34">de5e3fba979a155081dd33271153af36</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-10-06 19:54:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>9</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-06 19:54:00</sys_created_on>
+            <sys_id>544fbffa979a155081dd33271153afbf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_j_drug" sys_domain="global" view="da5e3bba979a155081dd33271153af34">de5e3fba979a155081dd33271153af36</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-10-06 19:54:00</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>collected_by</element>
+            <position>10</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-06 19:54:00</sys_created_on>
+            <sys_id>584fbffa979a155081dd33271153afbf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_j_drug" sys_domain="global" view="da5e3bba979a155081dd33271153af34">de5e3fba979a155081dd33271153af36</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-10-06 19:54:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>collection_date_time</element>
+            <position>11</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-06 19:54:00</sys_created_on>
+            <sys_id>5c4fbffa979a155081dd33271153afbf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_j_drug" sys_domain="global" view="da5e3bba979a155081dd33271153af34">de5e3fba979a155081dd33271153af36</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-10-06 19:54:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>collection_location</element>
+            <position>12</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-06 19:54:00</sys_created_on>
+            <sys_id>504fbffa979a155081dd33271153afc0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_j_drug" sys_domain="global" view="da5e3bba979a155081dd33271153af34">de5e3fba979a155081dd33271153af36</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-10-06 19:54:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>weight_unit</element>
+            <position>13</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-06 19:54:00</sys_created_on>
+            <sys_id>544fbffa979a155081dd33271153afc0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_j_drug" sys_domain="global" view="da5e3bba979a155081dd33271153af34">de5e3fba979a155081dd33271153af36</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-10-06 19:54:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>volume_unit</element>
+            <position>14</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-06 19:54:00</sys_created_on>
+            <sys_id>584fbffa979a155081dd33271153afc0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_j_drug" sys_domain="global" view="da5e3bba979a155081dd33271153af34">de5e3fba979a155081dd33271153af36</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-10-06 19:54:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>15</position>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-06 19:54:00</sys_created_on>
+            <sys_id>5c4fbffa979a155081dd33271153afc0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_j_drug" sys_domain="global" view="da5e3bba979a155081dd33271153af34">de5e3fba979a155081dd33271153af36</sys_ui_section>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-10-06 19:54:00</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>sn_niem_j_drug</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-06 19:50:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>de5e3fba979a155081dd33271153af36</sys_id>
+            <sys_name>sn_niem_j_drug</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+            <sys_update_name>sys_ui_section_de5e3fba979a155081dd33271153af36</sys_update_name>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="New Playbook" name="new_playbook">da5e3bba979a155081dd33271153af34</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

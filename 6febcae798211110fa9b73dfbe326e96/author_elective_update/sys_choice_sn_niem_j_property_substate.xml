@@ -81,7 +81,7 @@
             <element>substate</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Pending Transfered</label>
+            <label>Pending Transfer</label>
             <language>en</language>
             <name>sn_niem_j_property</name>
             <sequence>4</sequence>

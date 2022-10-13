@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_template">
+    <sys_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <global>true</global>
+        <group/>
+        <groups/>
+        <link_element/>
+        <name>Evidence 01</name>
+        <next/>
+        <next_child/>
+        <roles/>
+        <short_description/>
+        <show_on_template_bar>true</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sys_template</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-13 14:28:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f9c77a819766591081dd33271153afd2</sys_id>
+        <sys_name>Evidence 01</sys_name>
+        <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_update_name>sys_template_f9c77a819766591081dd33271153afd2</sys_update_name>
+        <table>sn_niem_j_property</table>
+        <template>acquisition_method=Seizure^classification=evidence^collected_by=5b9bdd2d4702d51024e32782846d4341^collection_location=3456511847d2591024e32782846d43af^item=01^operation=64f4bd964756555024e32782846d430e^priority=4^property_id=0a00c5f12f^property_value=javascript:global.getCurrencyFilter('sn_niem_j_property','property_value', 'USD;0.00')^short_description=Test^state=transit^substate=pending approval^sys_class_name=sn_niem_j_property^unit_of_measure_system=us imperial^EQ</template>
+        <user display_value="Steven Ly">43d63f604765511024e32782846d430b</user>
+        <view/>
+    </sys_template>
+</record_update>

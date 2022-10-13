@@ -1,0 +1,1765 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>approval_for_evidence_collection</internal_name>
+        <label_cache>[{"name":"3ffc2355-5204-4c16-97cc-a002d695b4f8.__dont_treat_as_error__","label":"5 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"3ffc2355-5204-4c16-97cc-a002d695b4f8.__action_status__","label":"5 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"3ffc2355-5204-4c16-97cc-a002d695b4f8.table_name","label":"5 - Update Record➛Property Table","reference":"sn_niem_j_property","reference_display":"Property","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3ffc2355-5204-4c16-97cc-a002d695b4f8.record","label":"5 - Update Record➛Property Record","reference":"sn_niem_j_property","reference_display":"Property","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"78ab76e4-f4b5-4c80-9a6d-46aee938c519.__dont_treat_as_error__","label":"3 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"78ab76e4-f4b5-4c80-9a6d-46aee938c519.__action_status__","label":"3 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"78ab76e4-f4b5-4c80-9a6d-46aee938c519.table_name","label":"3 - Update Record➛Property Table","reference":"sn_niem_j_property","reference_display":"Property","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"78ab76e4-f4b5-4c80-9a6d-46aee938c519.record","label":"3 - Update Record➛Property Record","reference":"sn_niem_j_property","reference_display":"Property","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"38d32d57-a285-43b1-8af8-02d17853b028.__dont_treat_as_error__","label":"3 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"38d32d57-a285-43b1-8af8-02d17853b028.__action_status__","label":"3 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"38d32d57-a285-43b1-8af8-02d17853b028.table_name","label":"3 - Update Record➛Property Table","reference":"sn_niem_j_property","reference_display":"Property","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"38d32d57-a285-43b1-8af8-02d17853b028.record","label":"3 - Update Record➛Property Record","reference":"sn_niem_j_property","reference_display":"Property","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.approver","label":"Input➛Approver","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"ef8aec03-b078-4e53-8ff5-7d49d27bc588"}},{"name":"subflow.approver_group","label":"Input➛Approver Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"d00036e3-91b4-4de0-a152-857d3e9f6380"}},{"name":"subflow.record","label":"Input➛Record","reference":"sn_niem_j_property","reference_display":"Property","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"66f85777-386f-44a7-aa17-29ee87207787"}},{"name":"cb00dbae-1676-41e0-a4a6-8236a58f7065.__dont_treat_as_error__","label":"1 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"cb00dbae-1676-41e0-a4a6-8236a58f7065.__action_status__","label":"1 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"cb00dbae-1676-41e0-a4a6-8236a58f7065.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master_snapshot>e93c80cf97da155081dd33271153afa7</master_snapshot>
+        <name>Approval for Evidence Collection</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:30:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>59a7000b97da155081dd33271153af9a</sys_id>
+        <sys_name>Approval for Evidence Collection</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_update_name>sys_hub_flow_59a7000b97da155081dd33271153af9a</sys_update_name>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=59a7000b97da155081dd33271153af9a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=59a7000b97da155081dd33271153af9a"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=59a7000b97da155081dd33271153af9a"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=59a7000b97da155081dd33271153af9a"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=59a7000b97da155081dd33271153af9a^sys_idNOT INd5a7000b97da155081dd33271153af9b"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>59a7000b97da155081dd33271153af9a</id>
+        <name>Approval for Evidence Collection</name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:30:41</sys_created_on>
+        <sys_id>d5a7000b97da155081dd33271153af9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:30:41</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=d5a7000b97da155081dd33271153af9b"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=59a7000b97da155081dd33271153af9a^sys_idNOT IN183c40cf97da155081dd33271153af4b,d43c40cf97da155081dd33271153af3f,d43c40cf97da155081dd33271153af46"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=d00036e3-91b4-4de0-a152-857d3e9f6380</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sys_user_group</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>approver_group</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Approver Group</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Approval for Evidence Collection">59a7000b97da155081dd33271153af9a</model>
+        <model_id>59a7000b97da155081dd33271153af9a</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_59a7000b97da155081dd33271153af9a</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_user_group">sys_user_group</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:32</sys_created_on>
+        <sys_id>183c40cf97da155081dd33271153af4b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=66f85777-386f-44a7-aa17-29ee87207787</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sn_niem_j_property</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Record</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Approval for Evidence Collection">59a7000b97da155081dd33271153af9a</model>
+        <model_id>59a7000b97da155081dd33271153af9a</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_59a7000b97da155081dd33271153af9a</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sn_niem_j_property">sn_niem_j_property</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:32</sys_created_on>
+        <sys_id>d43c40cf97da155081dd33271153af3f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=ef8aec03-b078-4e53-8ff5-7d49d27bc588</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sys_user</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>approver</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Approver</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Approval for Evidence Collection">59a7000b97da155081dd33271153af9a</model>
+        <model_id>59a7000b97da155081dd33271153af9a</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_59a7000b97da155081dd33271153af9a</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_user">sys_user</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:32</sys_created_on>
+        <sys_id>d43c40cf97da155081dd33271153af46</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=59a7000b97da155081dd33271153af9a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=59a7000b97da155081dd33271153af9a"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=59a7000b97da155081dd33271153af9a^sys_idNOT IN143c40cf97da155081dd33271153afa4,943c40cf97da155081dd33271153af68,9c3c40cf97da155081dd33271153af59"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Approval for Evidence Collection">59a7000b97da155081dd33271153af9a</flow>
+        <order>5</order>
+        <parent_ui_id>5c430890-f2a1-48cb-ae76-dd2b3a935081</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:33</sys_created_on>
+        <sys_id>143c40cf97da155081dd33271153afa4</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-10-07 12:40:02</sys_updated_on>
+        <ui_id>3ffc2355-5204-4c16-97cc-a002d695b4f8</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=143c40cf97da155081dd33271153afa4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>143c40cf97da155081dd33271153afa4</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:33</sys_created_on>
+        <sys_id>283c40cf97da155081dd33271153afa6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:33</sys_updated_on>
+        <value>sn_niem_j_property</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>143c40cf97da155081dd33271153afa4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:33</sys_created_on>
+        <sys_id>643c40cf97da155081dd33271153afa6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:33</sys_updated_on>
+        <value>work_notes=Collected evidence has been rejected.</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=143c40cf97da155081dd33271153afa4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>143c40cf97da155081dd33271153afa4</id>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:33</sys_created_on>
+        <sys_id>e03c40cf97da155081dd33271153afa6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{subflow.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>143c40cf97da155081dd33271153afa4</id>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:33</sys_created_on>
+        <sys_id>5c3c40cf97da155081dd33271153afa5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>143c40cf97da155081dd33271153afa4</id>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:33</sys_created_on>
+        <sys_id>203c40cf97da155081dd33271153afa6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=143c40cf97da155081dd33271153afa4^sys_idNOT IN143c40cf97da155081dd33271153afa5"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>values</input_name>
+        <instance>143c40cf97da155081dd33271153afa4</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"work_notes":{"scriptActive":false,"savedValue":"Collected evidence has been rejected."}}</script>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:33</sys_created_on>
+        <sys_id>143c40cf97da155081dd33271153afa5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:33</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=143c40cf97da155081dd33271153afa4"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Approval for Evidence Collection">59a7000b97da155081dd33271153af9a</flow>
+        <order>3</order>
+        <parent_ui_id>0bc63ca0-7e3e-4289-aa5a-b02a58c8bc5b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:33</sys_created_on>
+        <sys_id>943c40cf97da155081dd33271153af68</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-10-07 12:40:02</sys_updated_on>
+        <ui_id>78ab76e4-f4b5-4c80-9a6d-46aee938c519</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=943c40cf97da155081dd33271153af68"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>943c40cf97da155081dd33271153af68</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:33</sys_created_on>
+        <sys_id>183c40cf97da155081dd33271153af6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:33</sys_updated_on>
+        <value>sn_niem_j_property</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>943c40cf97da155081dd33271153af68</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:33</sys_created_on>
+        <sys_id>543c40cf97da155081dd33271153af6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:33</sys_updated_on>
+        <value>substate=pending transfered</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=943c40cf97da155081dd33271153af68"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>943c40cf97da155081dd33271153af68</id>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:33</sys_created_on>
+        <sys_id>d03c40cf97da155081dd33271153af6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{subflow.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>943c40cf97da155081dd33271153af68</id>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:33</sys_created_on>
+        <sys_id>5c3c40cf97da155081dd33271153af69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>943c40cf97da155081dd33271153af68</id>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:33</sys_created_on>
+        <sys_id>103c40cf97da155081dd33271153af6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=943c40cf97da155081dd33271153af68"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=943c40cf97da155081dd33271153af68"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Approval for Evidence Collection">59a7000b97da155081dd33271153af9a</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:32</sys_created_on>
+        <sys_id>9c3c40cf97da155081dd33271153af59</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-10-07 12:40:02</sys_updated_on>
+        <ui_id>cb00dbae-1676-41e0-a4a6-8236a58f7065</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9c3c40cf97da155081dd33271153af59"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9c3c40cf97da155081dd33271153af59</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:32</sys_created_on>
+        <sys_id>583c40cf97da155081dd33271153af5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:32</sys_updated_on>
+        <value>sn_niem_j_property</value>
+        <variable display_value="Table">bcf2e9920b10030085c083eb37673acc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9c3c40cf97da155081dd33271153af59</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:32</sys_created_on>
+        <sys_id>943c40cf97da155081dd33271153af5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:32</sys_updated_on>
+        <value/>
+        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9c3c40cf97da155081dd33271153af59</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:32</sys_created_on>
+        <sys_id>983c40cf97da155081dd33271153af5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:32</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="Approval Field">01f2e9920b10030085c083eb37673ad8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9c3c40cf97da155081dd33271153af59</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:32</sys_created_on>
+        <sys_id>d03c40cf97da155081dd33271153af5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:32</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="Journal Field">c1f2e9920b10030085c083eb37673ae3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9c3c40cf97da155081dd33271153af59"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_conditions</field>
+        <id>9c3c40cf97da155081dd33271153af59</id>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:32</sys_created_on>
+        <sys_id>543c40cf97da155081dd33271153af5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>ApprovesAnyG[{{subflow.approver_group}}]|AnyU[{{subflow.approver}}]</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_field</field>
+        <id>9c3c40cf97da155081dd33271153af59</id>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:32</sys_created_on>
+        <sys_id>543c40cf97da155081dd33271153af5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>9c3c40cf97da155081dd33271153af59</id>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:32</sys_created_on>
+        <sys_id>903c40cf97da155081dd33271153af5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>journal_field</field>
+        <id>9c3c40cf97da155081dd33271153af59</id>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:32</sys_created_on>
+        <sys_id>1c3c40cf97da155081dd33271153af5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>9c3c40cf97da155081dd33271153af59</id>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:32</sys_created_on>
+        <sys_id>dc3c40cf97da155081dd33271153af5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{{subflow.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>9c3c40cf97da155081dd33271153af59</id>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:32</sys_created_on>
+        <sys_id>183c40cf97da155081dd33271153af5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9c3c40cf97da155081dd33271153af59"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9c3c40cf97da155081dd33271153af59"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=59a7000b97da155081dd33271153af9a"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=59a7000b97da155081dd33271153af9a^sys_idNOT INd43c40cf97da155081dd33271153af6b,dc3c40cf97da155081dd33271153af5f"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">9c3c40cf97da155081dd33271153af6a</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Approval for Evidence Collection">59a7000b97da155081dd33271153af9a</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:33</sys_created_on>
+        <sys_id>d43c40cf97da155081dd33271153af6b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:39</sys_updated_on>
+        <ui_id>5c430890-f2a1-48cb-ae76-dd2b3a935081</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=d43c40cf97da155081dd33271153af6b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>d43c40cf97da155081dd33271153af6b</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:33</sys_created_on>
+        <sys_id>543c40cf97da155081dd33271153afa0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:33</sys_updated_on>
+        <value>Rejected</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d43c40cf97da155081dd33271153af6b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>d43c40cf97da155081dd33271153af6b</id>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:33</sys_created_on>
+        <sys_id>d03c40cf97da155081dd33271153afa0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:33</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{cb00dbae-1676-41e0-a4a6-8236a58f7065.approval_state}}=rejected</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>d43c40cf97da155081dd33271153af6b</id>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:33</sys_created_on>
+        <sys_id>103c40cf97da155081dd33271153afa0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:33</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=d43c40cf97da155081dd33271153af6b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d43c40cf97da155081dd33271153af6b"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">dc3c40cf97da155081dd33271153af5e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Approval for Evidence Collection">59a7000b97da155081dd33271153af9a</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:32</sys_created_on>
+        <sys_id>dc3c40cf97da155081dd33271153af5f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:39</sys_updated_on>
+        <ui_id>0bc63ca0-7e3e-4289-aa5a-b02a58c8bc5b</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=dc3c40cf97da155081dd33271153af5f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>dc3c40cf97da155081dd33271153af5f</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:33</sys_created_on>
+        <sys_id>d03c40cf97da155081dd33271153af64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:33</sys_updated_on>
+        <value>Approved</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=dc3c40cf97da155081dd33271153af5f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>dc3c40cf97da155081dd33271153af5f</id>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:33</sys_created_on>
+        <sys_id>503c40cf97da155081dd33271153af64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:33</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{cb00dbae-1676-41e0-a4a6-8236a58f7065.approval_state}}=approved</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>dc3c40cf97da155081dd33271153af5f</id>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:33</sys_created_on>
+        <sys_id>9c3c40cf97da155081dd33271153af63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:33</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=dc3c40cf97da155081dd33271153af5f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=dc3c40cf97da155081dd33271153af5f"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=59a7000b97da155081dd33271153af9a"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=59a7000b97da155081dd33271153af9a"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_59a7000b97da155081dd33271153af9a^sys_idNOT IN183c40cf97da155081dd33271153af45,583c40cf97da155081dd33271153af4a,983c40cf97da155081dd33271153af4f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>record</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_59a7000b97da155081dd33271153af9a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:32</sys_created_on>
+        <sys_id>183c40cf97da155081dd33271153af45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>approver</element>
+        <help/>
+        <hint/>
+        <label>Approver</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_59a7000b97da155081dd33271153af9a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:32</sys_created_on>
+        <sys_id>583c40cf97da155081dd33271153af4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>approver_group</element>
+        <help/>
+        <hint/>
+        <label>Approver Group</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_59a7000b97da155081dd33271153af9a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:32</sys_created_on>
+        <sys_id>983c40cf97da155081dd33271153af4f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_59a7000b97da155081dd33271153af9a"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_59a7000b97da155081dd33271153af9a"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_59a7000b97da155081dd33271153af9a"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=59a7000b97da155081dd33271153af9a"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=59a7000b97da155081dd33271153af9a^sys_idNOT IN423cc0cf97da155081dd33271153afce"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"423cc0cf97da155081dd33271153afce","name":"plan","plan_signature":null}}</plan>
+        <plan_id display_value="Approval for Evidence Collection">59a7000b97da155081dd33271153af9a</plan_id>
+        <snapshot>b485eb47975e555081dd33271153afad</snapshot>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>423cc0cf97da155081dd33271153afce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:39</sys_updated_on>
+    </sys_flow_subflow_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>approval_for_evidence_collection</internal_name>
+        <label_cache>[{"name":"3ffc2355-5204-4c16-97cc-a002d695b4f8.__dont_treat_as_error__","label":"5 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"3ffc2355-5204-4c16-97cc-a002d695b4f8.__action_status__","label":"5 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"3ffc2355-5204-4c16-97cc-a002d695b4f8.table_name","label":"5 - Update Record➛Property Table","reference":"sn_niem_j_property","reference_display":"Property","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3ffc2355-5204-4c16-97cc-a002d695b4f8.record","label":"5 - Update Record➛Property Record","reference":"sn_niem_j_property","reference_display":"Property","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"78ab76e4-f4b5-4c80-9a6d-46aee938c519.__dont_treat_as_error__","label":"3 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"78ab76e4-f4b5-4c80-9a6d-46aee938c519.__action_status__","label":"3 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"78ab76e4-f4b5-4c80-9a6d-46aee938c519.table_name","label":"3 - Update Record➛Property Table","reference":"sn_niem_j_property","reference_display":"Property","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"78ab76e4-f4b5-4c80-9a6d-46aee938c519.record","label":"3 - Update Record➛Property Record","reference":"sn_niem_j_property","reference_display":"Property","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"38d32d57-a285-43b1-8af8-02d17853b028.__dont_treat_as_error__","label":"3 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"38d32d57-a285-43b1-8af8-02d17853b028.__action_status__","label":"3 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"38d32d57-a285-43b1-8af8-02d17853b028.table_name","label":"3 - Update Record➛Property Table","reference":"sn_niem_j_property","reference_display":"Property","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"38d32d57-a285-43b1-8af8-02d17853b028.record","label":"3 - Update Record➛Property Record","reference":"sn_niem_j_property","reference_display":"Property","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.approver","label":"Input➛Approver","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"ef8aec03-b078-4e53-8ff5-7d49d27bc588"}},{"name":"subflow.approver_group","label":"Input➛Approver Group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"d00036e3-91b4-4de0-a152-857d3e9f6380"}},{"name":"subflow.record","label":"Input➛Record","reference":"sn_niem_j_property","reference_display":"Property","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"66f85777-386f-44a7-aa17-29ee87207787"}},{"name":"cb00dbae-1676-41e0-a4a6-8236a58f7065.__dont_treat_as_error__","label":"1 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"cb00dbae-1676-41e0-a4a6-8236a58f7065.__action_status__","label":"1 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"cb00dbae-1676-41e0-a4a6-8236a58f7065.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>Approval for Evidence Collection</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Approval for Evidence Collection">59a7000b97da155081dd33271153af9a</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e93c80cf97da155081dd33271153afa7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:37</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=e93c80cf97da155081dd33271153afa7"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e93c80cf97da155081dd33271153afa7"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=e93c80cf97da155081dd33271153afa7"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=e93c80cf97da155081dd33271153afa7"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=e93c80cf97da155081dd33271153afa7^sys_idNOT INe13c80cf97da155081dd33271153afa9"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>e93c80cf97da155081dd33271153afa7</id>
+        <name>Approval for Evidence Collection</name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:37</sys_created_on>
+        <sys_id>e13c80cf97da155081dd33271153afa9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:37</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=e13c80cf97da155081dd33271153afa9"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=e93c80cf97da155081dd33271153afa7^sys_idNOT IN213cc0cf97da155081dd33271153af05,a93c80cf97da155081dd33271153afaa,ed3c80cf97da155081dd33271153afeb"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=d00036e3-91b4-4de0-a152-857d3e9f6380</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sys_user_group</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>approver_group</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Approver Group</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Approval for Evidence Collection">e93c80cf97da155081dd33271153afa7</model>
+        <model_id>e93c80cf97da155081dd33271153afa7</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_e93c80cf97da155081dd33271153afa7</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_user_group">sys_user_group</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:38</sys_created_on>
+        <sys_id>213cc0cf97da155081dd33271153af05</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:38</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=66f85777-386f-44a7-aa17-29ee87207787</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sn_niem_j_property</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Record</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Approval for Evidence Collection">e93c80cf97da155081dd33271153afa7</model>
+        <model_id>e93c80cf97da155081dd33271153afa7</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_e93c80cf97da155081dd33271153afa7</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sn_niem_j_property">sn_niem_j_property</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:37</sys_created_on>
+        <sys_id>a93c80cf97da155081dd33271153afaa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:37</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=ef8aec03-b078-4e53-8ff5-7d49d27bc588</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sys_user</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>approver</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Approver</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Approval for Evidence Collection">e93c80cf97da155081dd33271153afa7</model>
+        <model_id>e93c80cf97da155081dd33271153afa7</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_e93c80cf97da155081dd33271153afa7</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sys_user">sys_user</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:37</sys_created_on>
+        <sys_id>ed3c80cf97da155081dd33271153afeb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:38</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=e93c80cf97da155081dd33271153afa7"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e93c80cf97da155081dd33271153afa7"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=e93c80cf97da155081dd33271153afa7^sys_idNOT IN393cc0cf97da155081dd33271153af7c,393cc0cf97da155081dd33271153af8b,3d3cc0cf97da155081dd33271153af85"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Approval for Evidence Collection">e93c80cf97da155081dd33271153afa7</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:38</sys_created_on>
+        <sys_id>393cc0cf97da155081dd33271153af7c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:38</sys_updated_on>
+        <ui_id>cb00dbae-1676-41e0-a4a6-8236a58f7065</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=393cc0cf97da155081dd33271153af7c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>393cc0cf97da155081dd33271153af7c</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:38</sys_created_on>
+        <sys_id>313cc0cf97da155081dd33271153af7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:38</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="Approval Field">01f2e9920b10030085c083eb37673ad8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>393cc0cf97da155081dd33271153af7c</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:38</sys_created_on>
+        <sys_id>793cc0cf97da155081dd33271153af7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:38</sys_updated_on>
+        <value>sn_niem_j_property</value>
+        <variable display_value="Table">bcf2e9920b10030085c083eb37673acc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>393cc0cf97da155081dd33271153af7c</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:38</sys_created_on>
+        <sys_id>b53cc0cf97da155081dd33271153af7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:38</sys_updated_on>
+        <value/>
+        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>393cc0cf97da155081dd33271153af7c</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:38</sys_created_on>
+        <sys_id>f13cc0cf97da155081dd33271153af7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:38</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="Journal Field">c1f2e9920b10030085c083eb37673ae3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=393cc0cf97da155081dd33271153af7c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_conditions</field>
+        <id>393cc0cf97da155081dd33271153af7c</id>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:38</sys_created_on>
+        <sys_id>f93cc0cf97da155081dd33271153af7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>ApprovesAnyG[{{subflow.approver_group}}]|AnyU[{{subflow.approver}}]</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_field</field>
+        <id>393cc0cf97da155081dd33271153af7c</id>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:38</sys_created_on>
+        <sys_id>fd3cc0cf97da155081dd33271153af7d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>393cc0cf97da155081dd33271153af7c</id>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:38</sys_created_on>
+        <sys_id>393cc0cf97da155081dd33271153af7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>journal_field</field>
+        <id>393cc0cf97da155081dd33271153af7c</id>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:38</sys_created_on>
+        <sys_id>b13cc0cf97da155081dd33271153af7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>393cc0cf97da155081dd33271153af7c</id>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:38</sys_created_on>
+        <sys_id>753cc0cf97da155081dd33271153af7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{{subflow.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>393cc0cf97da155081dd33271153af7c</id>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:38</sys_created_on>
+        <sys_id>bd3cc0cf97da155081dd33271153af7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=393cc0cf97da155081dd33271153af7c"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=393cc0cf97da155081dd33271153af7c"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Approval for Evidence Collection">e93c80cf97da155081dd33271153afa7</flow>
+        <order>5</order>
+        <parent_ui_id>5c430890-f2a1-48cb-ae76-dd2b3a935081</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:38</sys_created_on>
+        <sys_id>393cc0cf97da155081dd33271153af8b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:38</sys_updated_on>
+        <ui_id>3ffc2355-5204-4c16-97cc-a002d695b4f8</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=393cc0cf97da155081dd33271153af8b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>393cc0cf97da155081dd33271153af8b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:38</sys_created_on>
+        <sys_id>353cc0cf97da155081dd33271153af8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:38</sys_updated_on>
+        <value>work_notes=Collected evidence has been rejected.</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>393cc0cf97da155081dd33271153af8b</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:38</sys_created_on>
+        <sys_id>f53cc0cf97da155081dd33271153af8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:38</sys_updated_on>
+        <value>sn_niem_j_property</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=393cc0cf97da155081dd33271153af8b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>393cc0cf97da155081dd33271153af8b</id>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:38</sys_created_on>
+        <sys_id>b13cc0cf97da155081dd33271153af8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{subflow.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>393cc0cf97da155081dd33271153af8b</id>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:38</sys_created_on>
+        <sys_id>3d3cc0cf97da155081dd33271153af8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>393cc0cf97da155081dd33271153af8b</id>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:38</sys_created_on>
+        <sys_id>fd3cc0cf97da155081dd33271153af8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=393cc0cf97da155081dd33271153af8b^sys_idNOT IN393cc0cf97da155081dd33271153af8c"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>values</input_name>
+        <instance>393cc0cf97da155081dd33271153af8b</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"work_notes":{"scriptActive":false,"savedValue":"Collected evidence has been rejected."}}</script>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:38</sys_created_on>
+        <sys_id>393cc0cf97da155081dd33271153af8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:38</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=393cc0cf97da155081dd33271153af8b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Approval for Evidence Collection">e93c80cf97da155081dd33271153afa7</flow>
+        <order>3</order>
+        <parent_ui_id>0bc63ca0-7e3e-4289-aa5a-b02a58c8bc5b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:38</sys_created_on>
+        <sys_id>3d3cc0cf97da155081dd33271153af85</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:38</sys_updated_on>
+        <ui_id>78ab76e4-f4b5-4c80-9a6d-46aee938c519</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3d3cc0cf97da155081dd33271153af85"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3d3cc0cf97da155081dd33271153af85</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:38</sys_created_on>
+        <sys_id>393cc0cf97da155081dd33271153af87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:38</sys_updated_on>
+        <value>sn_niem_j_property</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3d3cc0cf97da155081dd33271153af85</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:38</sys_created_on>
+        <sys_id>753cc0cf97da155081dd33271153af87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:38</sys_updated_on>
+        <value>substate=pending transfered</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3d3cc0cf97da155081dd33271153af85"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>3d3cc0cf97da155081dd33271153af85</id>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:38</sys_created_on>
+        <sys_id>f13cc0cf97da155081dd33271153af87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{subflow.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>3d3cc0cf97da155081dd33271153af85</id>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:38</sys_created_on>
+        <sys_id>7d3cc0cf97da155081dd33271153af86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>3d3cc0cf97da155081dd33271153af85</id>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:38</sys_created_on>
+        <sys_id>313cc0cf97da155081dd33271153af87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3d3cc0cf97da155081dd33271153af85"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3d3cc0cf97da155081dd33271153af85"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=e93c80cf97da155081dd33271153afa7"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=e93c80cf97da155081dd33271153afa7^sys_idNOT IN753cc0cf97da155081dd33271153af65,793cc0cf97da155081dd33271153af60"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">9c3c40cf97da155081dd33271153af6a</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Approval for Evidence Collection">e93c80cf97da155081dd33271153afa7</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:38</sys_created_on>
+        <sys_id>753cc0cf97da155081dd33271153af65</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:38</sys_updated_on>
+        <ui_id>5c430890-f2a1-48cb-ae76-dd2b3a935081</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=753cc0cf97da155081dd33271153af65"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>753cc0cf97da155081dd33271153af65</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:38</sys_created_on>
+        <sys_id>f53cc0cf97da155081dd33271153af68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:38</sys_updated_on>
+        <value>Rejected</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=753cc0cf97da155081dd33271153af65"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>753cc0cf97da155081dd33271153af65</id>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:38</sys_created_on>
+        <sys_id>753cc0cf97da155081dd33271153af68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:38</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{cb00dbae-1676-41e0-a4a6-8236a58f7065.approval_state}}=rejected</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>753cc0cf97da155081dd33271153af65</id>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:38</sys_created_on>
+        <sys_id>b13cc0cf97da155081dd33271153af68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:38</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=753cc0cf97da155081dd33271153af65"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=753cc0cf97da155081dd33271153af65"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">dc3c40cf97da155081dd33271153af5e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Approval for Evidence Collection">e93c80cf97da155081dd33271153afa7</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:38</sys_created_on>
+        <sys_id>793cc0cf97da155081dd33271153af60</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:38</sys_updated_on>
+        <ui_id>0bc63ca0-7e3e-4289-aa5a-b02a58c8bc5b</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=793cc0cf97da155081dd33271153af60"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>793cc0cf97da155081dd33271153af60</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:38</sys_created_on>
+        <sys_id>f53cc0cf97da155081dd33271153af64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:38</sys_updated_on>
+        <value>Approved</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=793cc0cf97da155081dd33271153af60"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>793cc0cf97da155081dd33271153af60</id>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:38</sys_created_on>
+        <sys_id>753cc0cf97da155081dd33271153af64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:38</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{cb00dbae-1676-41e0-a4a6-8236a58f7065.approval_state}}=approved</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>793cc0cf97da155081dd33271153af60</id>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:38</sys_created_on>
+        <sys_id>b13cc0cf97da155081dd33271153af64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:38</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=793cc0cf97da155081dd33271153af60"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=793cc0cf97da155081dd33271153af60"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=e93c80cf97da155081dd33271153afa7"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=e93c80cf97da155081dd33271153afa7"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_e93c80cf97da155081dd33271153afa7^sys_idNOT IN793cc0cf97da155081dd33271153af58,a13c80cf97da155081dd33271153afe8,e13cc0cf97da155081dd33271153af01"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>approver_group</element>
+        <help/>
+        <hint/>
+        <label>Approver Group</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e93c80cf97da155081dd33271153afa7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:38</sys_created_on>
+        <sys_id>793cc0cf97da155081dd33271153af58</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:38</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>record</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e93c80cf97da155081dd33271153afa7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:37</sys_created_on>
+        <sys_id>a13c80cf97da155081dd33271153afe8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:37</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>approver</element>
+        <help/>
+        <hint/>
+        <label>Approver</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e93c80cf97da155081dd33271153afa7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 20:50:38</sys_created_on>
+        <sys_id>e13cc0cf97da155081dd33271153af01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-06 20:50:38</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_e93c80cf97da155081dd33271153afa7"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_e93c80cf97da155081dd33271153afa7"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_e93c80cf97da155081dd33271153afa7"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>59a7000b97da155081dd33271153af9a</sys_id>
+        <latest_snapshot>e93c80cf97da155081dd33271153afa7</latest_snapshot>
+        <compiler_build>glide-tokyo-07-08-2022__patch1-09-01-2022_09-16-2022_1610.zip</compiler_build>
+    </sys_hub_flow>
+</record_update>

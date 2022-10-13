@@ -2,8 +2,8 @@
     <sys_documentation element="description" label="Description of Drug" language="en" table="sn_niem_j_drug">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>description</element>
-            <help/>
-            <hint/>
+            <help>Provide details related to packaging/marks on packaging and labels</help>
+            <hint>Provide details related to packaging/marks on packaging and labels</hint>
             <label>Description of Drug</label>
             <language>en</language>
             <name>sn_niem_j_drug</name>

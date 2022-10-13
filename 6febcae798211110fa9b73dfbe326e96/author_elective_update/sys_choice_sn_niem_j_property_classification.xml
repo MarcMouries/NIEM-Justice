@@ -44,5 +44,21 @@
             <sys_domain_path>/</sys_domain_path>
             <value>property</value>
         </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>classification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sample</label>
+            <language>en</language>
+            <name>sn_niem_j_property</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-07 18:48:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>sample</value>
+        </sys_choice>
     </sys_choice>
 </record_update>

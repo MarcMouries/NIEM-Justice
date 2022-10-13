@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>sn_niem_j_drug</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="sn_niem_j_drug">weightISNOTEMPTY^EQ<item endquery="false" field="weight" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Exceeds Bulk Thresholds</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var sysId = current.sys_id;
+	var measurement = current.unit_of_measure_system;
+	var unit = current.weight_unit;
+	var weight = current.weight;
+	var conversion;
+
+	//gs.addInfoMessage(weight + ' ' + unit);
+	//convert weight to lowest unit
+	if (unit == 'kg') {
+		conversion = (weight * 1000);
+	} else if (unit == 'g') {
+		conversion = weight;
+	} else if (unit == 'lb') {
+		conversion = (weight * 16);
+	} else if (unit == 'oz') {
+		conversion = weight;
+	}
+
+	//10lbs = 160oz
+	//10lbs = 4.53kg = 4535.92g
+	if (measurement == 'metric' && conversion >= 4535){
+		gs.addInfoMessage(weight + ' ' + unit + ' exceeds the bulk threshold.');
+		current.seizure_type = 'Bulk';
+	} else if (measurement == 'us imperial' && conversion >= 160) {
+		gs.addInfoMessage(weight + ' ' + unit + ' exceeds the bulk threshold.');
+		current.seizure_type = 'Bulk';
+	}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 18:25:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3f2a677e971a155081dd33271153af23</sys_id>
+        <sys_name>Exceeds Bulk Thresholds</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_update_name>sys_script_3f2a677e971a155081dd33271153af23</sys_update_name>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=3f2a677e971a155081dd33271153af23"/>
+</record_update>

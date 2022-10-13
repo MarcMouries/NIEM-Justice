@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="e82cd41a971e115081dd33271153afce" label="Chain of Custody" max_length="40" name="sn_niem_j_custody" type="collection">
+    <element audit="true" db_object_id="e82cd41a971e115081dd33271153afce" label="Chain of Custody" max_length="40" name="sn_niem_j_custody" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Carrier" max_length="100" name="carrier" reference="core_company" reference_qual="vendor=true^EQ" reference_qual_condition="vendor=true^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Carrier Name" max_length="100" name="carrier_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Comments" max_length="40" name="comments" type="journal_input"/>
         <element attributes="edge_encryption_enabled=true" label="Date/Time" max_length="40" name="date_time" type="calendar_date_time"/>
         <element attributes="encode_utf8=false" label="Property" max_length="32" name="property" reference="sn_niem_j_property" type="reference"/>
         <element attributes="encode_utf8=false" label="Received By" max_length="32" name="received_by" reference="sys_user" type="reference"/>
         <element attributes="encode_utf8=false" label="Received From" max_length="32" name="received_from" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Tracking Number" max_length="100" name="tracking_number" type="string"/>
+        <element label="3rd Party Carrier" max_length="40" name="u_3rd_party_carrier" type="boolean"/>
         <index name="index">
             <element name="property"/>
         </index>

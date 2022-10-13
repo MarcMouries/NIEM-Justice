@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ff8e734f97de555081dd33271153af82" extends="task" label="Property Tasks" max_length="40" name="sn_niem_j_property_tasks" type="collection">
+        <element attributes="encode_utf8=false" label="Property ID" max_length="32" name="property_id" reference="sn_niem_j_property" type="reference"/>
+    </element>
+</database>

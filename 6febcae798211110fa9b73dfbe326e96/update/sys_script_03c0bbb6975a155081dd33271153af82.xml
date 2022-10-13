@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>sn_niem_j_property</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="sn_niem_j_property">classification=evidence^chain_of_custody=^EQ<item display_value="Evidence" endquery="false" field="classification" goto="false" newquery="false" operator="=" or="false" value="evidence"/>
+            <item display_value="-- None --" endquery="false" field="chain_of_custody" goto="false" newquery="false" operator="=" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Create Initial Custody Record</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var collectedBy = current.collected_by;
+	var date = current.collection_date_time;
+
+	//create initial collection chain of custody record.
+	var coc = new GlideRecord('sn_niem_j_custody');
+	coc.initialize(); 
+	coc.property = current.sys_id;
+	coc.received_from = collectedBy;
+	coc.date_time = date;
+	coc.comments = 'Pending approval and acceptance to evidence custody.';
+	coc.insert();
+
+	current.chain_of_custody = 'open';
+	current.work_notes = ('Initial chain of custody established by ' + collectedBy.getDisplayValue());
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-06 18:52:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>03c0bbb6975a155081dd33271153af82</sys_id>
+        <sys_name>Create Initial Custody Record</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_update_name>sys_script_03c0bbb6975a155081dd33271153af82</sys_update_name>
+        <template>chain_of_custody=open^EQ</template>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=03c0bbb6975a155081dd33271153af82"/>
+</record_update>
