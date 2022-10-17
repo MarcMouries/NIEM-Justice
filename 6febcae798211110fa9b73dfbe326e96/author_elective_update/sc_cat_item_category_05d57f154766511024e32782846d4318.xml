@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Submit Transport Evidence">45d53fd14766511024e32782846d43a4</sc_cat_item>
+        <sc_category display_value="Evidence">9e4827114726511024e32782846d4382</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-14 13:37:38</sys_created_on>
+        <sys_id>05d57f154766511024e32782846d4318</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Evidence.Submit Transport Evidence</sys_name>
+        <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_update_name>sc_cat_item_category_05d57f154766511024e32782846d4318</sys_update_name>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-14 13:37:38</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</application>
+        <file_path/>
+        <instance_id>452b90e0db6919908aea21c40596198f</instance_id>
+        <instance_name>deamosdemo</instance_name>
+        <name>sc_cat_item_category_05d57f154766511024e32782846d4318</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Submit Transport Evidence">45d53fd14766511024e32782846d43a4</sc_cat_item><sc_category display_value="Evidence">9e4827114726511024e32782846d4382</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>steven.ly</sys_created_by><sys_created_on>2022-10-14 13:37:38</sys_created_on><sys_id>05d57f154766511024e32782846d4318</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Evidence.Submit Transport Evidence</sys_name><sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package><sys_policy/><sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope><sys_update_name>sc_cat_item_category_05d57f154766511024e32782846d4318</sys_update_name><sys_updated_by>steven.ly</sys_updated_by><sys_updated_on>2022-10-14 13:37:38</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>624700331</payload_hash>
+        <record_name>Evidence.Submit Transport Evidence</record_name>
+        <reverted_from/>
+        <source>aa320873472dd91024e32782846d4309</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-14 13:37:38</sys_created_on>
+        <sys_id>89d57f154766511024e32782846d431b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183d6b6f85a0000001</sys_recorded_at>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-14 13:37:38</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>c1d57f15ec66511089dcbeee0149091b</update_guid>
+        <update_guid_history>c1d57f15ec66511089dcbeee0149091b:624700331</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Evidence.Submit Transport Evidence">b3f573554766511024e32782846d43be</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-14 13:38:22</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>0070eab960484750a5d737b46909b900</sys_id>
+        <sys_metadata>05d57f154766511024e32782846d4318</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Evidence.Submit Transport Evidence</sys_name>
+        <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_scope_delete display_value="">4587fa99cc9544b09fbf217996537240</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_05d57f154766511024e32782846d4318</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_05d57f154766511024e32782846d4318">89d57f154766511024e32782846d431b</sys_update_version>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-14 13:38:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

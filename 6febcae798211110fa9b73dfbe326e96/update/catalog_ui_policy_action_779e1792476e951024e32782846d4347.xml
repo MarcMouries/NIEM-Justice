@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Transfer Evidence">06579f56472e951024e32782846d4331</catalog_item>
+        <catalog_variable>IO:4e575796472e951024e32782846d4344</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-17 14:30:11</sys_created_on>
+        <sys_id>779e1792476e951024e32782846d4347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>received_from</sys_name>
+        <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_779e1792476e951024e32782846d4347</sys_update_name>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-17 14:30:11</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Mandatory Fields">757e5392476e951024e32782846d438c</ui_policy>
+        <variable>received_from</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

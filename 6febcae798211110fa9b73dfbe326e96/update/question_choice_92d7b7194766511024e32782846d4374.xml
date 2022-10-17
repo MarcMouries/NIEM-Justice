@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>8</order>
+        <published_ref/>
+        <question display_value="Engine Size">9ad7b7194766511024e32782846d4346</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-14 13:46:28</sys_created_on>
+        <sys_id>92d7b7194766511024e32782846d4374</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>200hp - 250hp</sys_name>
+        <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_update_name>question_choice_92d7b7194766511024e32782846d4374</sys_update_name>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-14 13:46:28</sys_updated_on>
+        <text>200hp - 250hp</text>
+        <value>200hp - 250hp</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=92d7b7194766511024e32782846d4374"/>
+</record_update>

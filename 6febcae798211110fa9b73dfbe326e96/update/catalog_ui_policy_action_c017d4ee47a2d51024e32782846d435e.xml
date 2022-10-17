@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Register Transport Evidence">84e73b194766511024e32782846d4325</catalog_item>
+        <catalog_variable>IO:51e7bb194766511024e32782846d4336</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-17 18:36:47</sys_created_on>
+        <sys_id>c017d4ee47a2d51024e32782846d435e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>engine_size</sys_name>
+        <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_c017d4ee47a2d51024e32782846d435e</sys_update_name>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-17 18:36:47</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Engine Type">cbe650ee47a2d51024e32782846d432d</ui_policy>
+        <variable>engine_size</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

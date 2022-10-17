@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Transfer Evidence">f9579f56472e951024e32782846d4358</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-17 13:58:21</sys_created_on>
+        <sys_id>75571796472e951024e32782846d43be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Transfer Evidence</sys_name>
+        <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_75571796472e951024e32782846d43be</sys_update_name>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-17 13:58:21</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</application>
+        <file_path/>
+        <instance_id>452b90e0db6919908aea21c40596198f</instance_id>
+        <instance_name>deamosdemo</instance_name>
+        <name>sc_cat_item_catalog_75571796472e951024e32782846d43be</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Transfer Evidence">f9579f56472e951024e32782846d4358</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>steven.ly</sys_created_by><sys_created_on>2022-10-17 13:58:21</sys_created_on><sys_id>75571796472e951024e32782846d43be</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Transfer Evidence</sys_name><sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package><sys_policy/><sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope><sys_update_name>sc_cat_item_catalog_75571796472e951024e32782846d43be</sys_update_name><sys_updated_by>steven.ly</sys_updated_by><sys_updated_on>2022-10-17 13:58:21</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-59753780</payload_hash>
+        <record_name>Service Catalog.Transfer Evidence</record_name>
+        <reverted_from/>
+        <source>aa320873472dd91024e32782846d4309</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-17 13:58:21</sys_created_on>
+        <sys_id>35571796472e951024e32782846d43c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183e63d040b0000001</sys_recorded_at>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-17 13:58:21</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>7d5717969b2e9510303baa144f940bc1</update_guid>
+        <update_guid_history>7d5717969b2e9510303baa144f940bc1:-59753780</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Transfer Evidence">9fe7d7d6472e951024e32782846d4375</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-17 14:00:56</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>eb0f4c97e74b4a3a8eda804106a5cdb1</sys_id>
+        <sys_metadata>75571796472e951024e32782846d43be</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Transfer Evidence</sys_name>
+        <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+        <sys_parent display_value="">f9579f56472e951024e32782846d4358</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_scope_delete display_value="">4587fa99cc9544b09fbf217996537240</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_75571796472e951024e32782846d43be</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_75571796472e951024e32782846d43be">35571796472e951024e32782846d43c2</sys_update_version>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-17 14:00:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

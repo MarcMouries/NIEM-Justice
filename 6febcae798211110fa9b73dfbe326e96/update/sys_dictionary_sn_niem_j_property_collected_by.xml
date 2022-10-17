@@ -11,7 +11,7 @@
         <column_label>Collected By</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>javascript:gs.getUserID()</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -19,7 +19,7 @@
         <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
-        <dynamic_default_value/>
+        <dynamic_default_value display_value="Sender">2fd8e97bef3221002841f7f775c0fbc1</dynamic_default_value>
         <dynamic_ref_qual/>
         <element>collected_by</element>
         <element_reference>false</element_reference>
@@ -54,11 +54,13 @@
         <sys_policy/>
         <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
         <sys_update_name>sys_dictionary_sn_niem_j_property_collected_by</sys_update_name>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-14 13:19:48</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
+        <use_dynamic_default>true</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
         <virtual_type>script</virtual_type>

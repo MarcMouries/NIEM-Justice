@@ -28,9 +28,14 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
-
-	current.short_description = (current.controlled_substance.getDisplayValue() + ' - ' + current.number);
-
+	
+	var propId = current.property_id;
+	if (propId) {
+		current.short_description = (current.controlled_substance.getDisplayValue() + ' - ' + current.property_id);
+	} else {
+		current.short_description = (current.controlled_substance.getDisplayValue());
+	}
+	
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>steven.ly</sys_created_by>
@@ -38,12 +43,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>04f36056975e115081dd33271153aff2</sys_id>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Update Drug Name (short_description) </sys_name>
         <sys_overrides/>
         <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
         <sys_policy/>
         <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
         <sys_update_name>sys_script_04f36056975e115081dd33271153aff2</sys_update_name>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-17 17:43:14</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

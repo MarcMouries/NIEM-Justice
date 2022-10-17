@@ -35,9 +35,9 @@
                 <element inactive_on_update="false" label="Sample" value="sample"/>
             </choice>
         </element>
-        <element attributes="encode_utf8=false" label="Collected By" max_length="32" name="collected_by" reference="sys_user" reference_qual="roles=sn_niem_j.evidence_user^EQ" reference_qual_condition="roles=sn_niem_j.evidence_user^EQ" type="reference"/>
+        <element attributes="encode_utf8=false" default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Collected By" max_length="32" name="collected_by" reference="sys_user" reference_qual="roles=sn_niem_j.evidence_user^EQ" reference_qual_condition="roles=sn_niem_j.evidence_user^EQ" type="reference" use_dynamic_default="true"/>
         <element attributes="edge_encryption_enabled=true" label="Collection Date/Time" max_length="40" name="collection_date_time" type="glide_date_time"/>
-        <element attributes="encode_utf8=false" label="Collection Location" max_length="32" name="collection_location" reference="sn_niem_address" type="reference"/>
+        <element attributes="encode_utf8=false" label="Collection Location" max_length="32" name="collection_location" reference="sn_niem_location" type="reference"/>
         <element label="Depth" max_length="15" name="depth" type="decimal"/>
         <element attributes="edge_encryption_enabled=true" choice="1" dependent="unit_of_measure_system" dependent_on_field="unit_of_measure_system" label="Depth Unit" max_length="40" name="depth_unit" type="string" use_dependent_field="true">
             <choice>
@@ -90,7 +90,7 @@
                 <element inactive_on_update="false" label="4 - Low" sequence="4" value="4"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="Property Tag (RFID/NFC)" max_length="40" name="property_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Property Tag (Barcode)" max_length="40" name="property_id" type="string"/>
         <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Property Value" max_length="20" name="property_value" type="price"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Seizure Type" max_length="40" name="seizure_type" type="string">
             <choice>
@@ -98,6 +98,7 @@
                 <element inactive_on_update="false" label="Sample" sequence="1" value="Sample"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Name" max_length="100" name="short_description" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="transit" label="State" max_length="40" name="state" type="string">
             <choice>
                 <element inactive_on_update="false" label="In Custody" sequence="0" value="custody"/>

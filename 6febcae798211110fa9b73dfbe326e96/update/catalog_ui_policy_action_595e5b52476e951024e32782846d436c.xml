@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Transfer Evidence">06579f56472e951024e32782846d4331</catalog_item>
+        <catalog_variable>IO:de575796472e951024e32782846d4383</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-17 14:28:54</sys_created_on>
+        <sys_id>595e5b52476e951024e32782846d436c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tracking_number</sys_name>
+        <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_595e5b52476e951024e32782846d436c</sys_update_name>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-17 14:28:54</sys_updated_on>
+        <table/>
+        <ui_policy display_value="3rd Party Carrier Used">d12ed752476e951024e32782846d4363</ui_policy>
+        <variable>tracking_number</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>
