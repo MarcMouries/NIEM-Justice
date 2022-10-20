@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="hasLabels=true" db_object_id="b1ae941e971e115081dd33271153af71" extends="sn_niem_j_property" label="Drug" max_length="40" name="sn_niem_j_drug" type="collection">
         <element attributes="encode_utf8=false" label="Controlled Substance" max_length="32" name="controlled_substance" reference="sn_niem_drug_controlled_substance" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="DEA7" max_length="40" name="dea7" type="boolean"/>
         <index name="index">
             <element name="controlled_substance"/>
         </index>

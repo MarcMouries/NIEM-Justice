@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog">
+    <sc_catalog action="DELETE">
+        <active>true</active>
+        <background_color>white</background_color>
+        <description/>
+        <desktop_continue_shopping/>
+        <desktop_home_page/>
+        <desktop_image/>
+        <editors/>
+        <enable_wish_list>false</enable_wish_list>
+        <manager/>
+        <sys_class_name>sc_catalog</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-18 15:24:11</sys_created_on>
+        <sys_id>cb84f43a47ae191024e32782846d437f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Investigative Case Management</sys_name>
+        <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_update_name>sc_catalog_cb84f43a47ae191024e32782846d437f</sys_update_name>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-18 15:26:34</sys_updated_on>
+        <title>Investigative Case Management</title>
+    </sc_catalog>
+    <sys_translated_text action="DELETE" query="documentkey=cb84f43a47ae191024e32782846d437f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</application>
+        <file_path/>
+        <instance_id>452b90e0db6919908aea21c40596198f</instance_id>
+        <instance_name>deamosdemo</instance_name>
+        <name>sc_catalog_cb84f43a47ae191024e32782846d437f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog"><sc_catalog action="INSERT_OR_UPDATE"><active>true</active><background_color>white</background_color><description/><desktop_continue_shopping/><desktop_home_page/><desktop_image/><editors/><enable_wish_list>false</enable_wish_list><manager/><sys_class_name>sc_catalog</sys_class_name><sys_created_by>steven.ly</sys_created_by><sys_created_on>2022-10-18 15:24:11</sys_created_on><sys_id>cb84f43a47ae191024e32782846d437f</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Investigative Case Management</sys_name><sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package><sys_policy/><sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope><sys_update_name>sc_catalog_cb84f43a47ae191024e32782846d437f</sys_update_name><sys_updated_by>steven.ly</sys_updated_by><sys_updated_on>2022-10-18 15:26:34</sys_updated_on><title>Investigative Case Management</title></sc_catalog><sys_translated_text action="delete_multiple" query="documentkey=cb84f43a47ae191024e32782846d437f"/></record_update>]]></payload>
+        <payload_hash>-1536902497</payload_hash>
+        <record_name>Investigative Case Management</record_name>
+        <reverted_from/>
+        <source>aa320873472dd91024e32782846d4309</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-18 15:26:34</sys_created_on>
+        <sys_id>e315b47a47ae191024e32782846d43df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183ebb421560000001</sys_recorded_at>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-18 15:26:34</sys_updated_on>
+        <type>Catalog</type>
+        <update_guid>eb15b47ab0ae191077e7ca248a5702de</update_guid>
+        <update_guid_history>eb15b47ab0ae191077e7ca248a5702de:-1536902497,f094f43a99ae19100bf86f6c000f2388:-1775424431</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Investigative Case Management">94f530fa47ae191024e32782846d4329</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-18 15:30:10</sys_created_on>
+        <sys_db_object display_value="" name="sc_catalog">sc_catalog</sys_db_object>
+        <sys_id>146905a67199423d837e5c670fc25e31</sys_id>
+        <sys_metadata>cb84f43a47ae191024e32782846d437f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Investigative Case Management</sys_name>
+        <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_scope_delete display_value="">4587fa99cc9544b09fbf217996537240</sys_scope_delete>
+        <sys_update_name>sc_catalog_cb84f43a47ae191024e32782846d437f</sys_update_name>
+        <sys_update_version display_value="sc_catalog_cb84f43a47ae191024e32782846d437f">e315b47a47ae191024e32782846d43df</sys_update_version>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-18 15:30:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

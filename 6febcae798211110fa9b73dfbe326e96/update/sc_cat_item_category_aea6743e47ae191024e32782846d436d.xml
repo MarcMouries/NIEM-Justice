@@ -4,15 +4,15 @@
         <sc_category display_value="Evidence">9e4827114726511024e32782846d4382</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>steven.ly</sys_created_by>
-        <sys_created_on>2022-10-14 13:50:07</sys_created_on>
-        <sys_id>2ba873994766511024e32782846d43ce</sys_id>
+        <sys_created_on>2022-10-18 15:33:19</sys_created_on>
+        <sys_id>aea6743e47ae191024e32782846d436d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Evidence.Collect Evidence</sys_name>
+        <sys_name>Evidence.Register Evidence</sys_name>
         <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
         <sys_policy/>
         <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
-        <sys_update_name>sc_cat_item_category_2ba873994766511024e32782846d43ce</sys_update_name>
+        <sys_update_name>sc_cat_item_category_aea6743e47ae191024e32782846d436d</sys_update_name>
         <sys_updated_by>steven.ly</sys_updated_by>
-        <sys_updated_on>2022-10-14 13:50:07</sys_updated_on>
+        <sys_updated_on>2022-10-18 15:33:19</sys_updated_on>
     </sc_cat_item_category>
 </record_update>

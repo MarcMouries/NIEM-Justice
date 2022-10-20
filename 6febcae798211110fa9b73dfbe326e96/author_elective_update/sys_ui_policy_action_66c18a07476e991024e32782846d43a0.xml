@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>storage_location</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-19 15:40:17</sys_created_on>
+        <sys_id>66c18a07476e991024e32782846d43a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>storage_location</sys_name>
+        <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_update_name>sys_ui_policy_action_66c18a07476e991024e32782846d43a0</sys_update_name>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-19 15:40:17</sys_updated_on>
+        <table>sn_niem_j_property</table>
+        <ui_policy display_value="Storage Location Mandatory">19a18607476e991024e32782846d4374</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</application>
+        <file_path/>
+        <instance_id>452b90e0db6919908aea21c40596198f</instance_id>
+        <instance_name>deamosdemo</instance_name>
+        <name>sys_ui_policy_action_66c18a07476e991024e32782846d43a0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>storage_location</field><mandatory>true</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>steven.ly</sys_created_by><sys_created_on>2022-10-19 15:40:17</sys_created_on><sys_id>66c18a07476e991024e32782846d43a0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>storage_location</sys_name><sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package><sys_policy/><sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope><sys_update_name>sys_ui_policy_action_66c18a07476e991024e32782846d43a0</sys_update_name><sys_updated_by>steven.ly</sys_updated_by><sys_updated_on>2022-10-19 15:40:17</sys_updated_on><table>sn_niem_j_property</table><ui_policy display_value="Storage Location Mandatory">19a18607476e991024e32782846d4374</ui_policy><visible>ignore</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-116578424</payload_hash>
+        <record_name>storage_location</record_name>
+        <reverted_from/>
+        <source>aa320873472dd91024e32782846d4309</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-19 15:40:17</sys_created_on>
+        <sys_id>9ed18a07476e991024e32782846d4373</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183f0e70c2c0000001</sys_recorded_at>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-19 15:40:17</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>d6d18a07a46e9910f4936a581bfd1a73</update_guid>
+        <update_guid_history>d6d18a07a46e9910f4936a581bfd1a73:-116578424</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-19 15:40:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>94e526d5342f442d9c6a729bb0e56dd1</sys_id>
+        <sys_metadata>66c18a07476e991024e32782846d43a0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>storage_location</sys_name>
+        <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_scope_delete display_value="">4587fa99cc9544b09fbf217996537240</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_66c18a07476e991024e32782846d43a0</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_66c18a07476e991024e32782846d43a0">9ed18a07476e991024e32782846d4373</sys_update_version>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-19 15:40:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

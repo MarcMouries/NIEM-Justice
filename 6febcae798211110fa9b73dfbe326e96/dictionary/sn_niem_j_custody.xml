@@ -4,6 +4,7 @@
         <element attributes="edge_encryption_enabled=true" label="Carrier" max_length="100" name="carrier" reference="core_company" reference_qual="vendor=true^EQ" reference_qual_condition="vendor=true^EQ" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Carrier Name" max_length="100" name="carrier_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Comments" max_length="40" name="comments" type="journal_input"/>
+        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;recBy = current.received_by.getDisplayValue();&#13;&#10;&#9;if (recBy) {&#13;&#10;&#9;&#9;return (current.received_from.getDisplayValue() + ' &gt; ' + current.received_by.getDisplayValue());&#13;&#10;&#9;} else {&#13;&#10;&#9;&#9;return (current.received_from.getDisplayValue() + ' &gt; TBD');&#13;&#10;&#9;}&#13;&#10;&#9;&#13;&#10;&#13;&#10;})(current);" display="true" label="Custody" max_length="100" name="custody" type="string" virtual="true"/>
         <element attributes="edge_encryption_enabled=true" label="Date/Time" max_length="40" name="date_time" type="calendar_date_time"/>
         <element attributes="encode_utf8=false" label="Property" max_length="32" name="property" reference="sn_niem_j_property" type="reference"/>
         <element attributes="encode_utf8=false" label="Received By" max_length="32" name="received_by" reference="sys_user" type="reference"/>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category">
+    <sc_category action="DELETE">
+        <active>true</active>
+        <description/>
+        <entitlement_script/>
+        <header_icon/>
+        <homepage_image/>
+        <homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer>
+        <icon/>
+        <image/>
+        <location/>
+        <mobile_hide_description>false</mobile_hide_description>
+        <mobile_picture/>
+        <mobile_subcategory_render_type>list</mobile_subcategory_render_type>
+        <module/>
+        <order>0</order>
+        <parent/>
+        <roles/>
+        <sc_catalog display_value="Investigative Case Management">cb84f43a47ae191024e32782846d437f</sc_catalog>
+        <sys_class_name>sc_category</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-18 15:26:44</sys_created_on>
+        <sys_id>0025f47a47ae191024e32782846d43b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Evidence</sys_name>
+        <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_update_name>sc_category_0025f47a47ae191024e32782846d43b9</sys_update_name>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-18 15:26:44</sys_updated_on>
+        <title>Evidence</title>
+    </sc_category>
+    <sys_translated_text action="DELETE" query="documentkey=0025f47a47ae191024e32782846d43b9"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</application>
+        <file_path/>
+        <instance_id>452b90e0db6919908aea21c40596198f</instance_id>
+        <instance_name>deamosdemo</instance_name>
+        <name>sc_category_0025f47a47ae191024e32782846d43b9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent/><roles/><sc_catalog display_value="Investigative Case Management">cb84f43a47ae191024e32782846d437f</sc_catalog><sys_class_name>sc_category</sys_class_name><sys_created_by>steven.ly</sys_created_by><sys_created_on>2022-10-18 15:26:44</sys_created_on><sys_id>0025f47a47ae191024e32782846d43b9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Evidence</sys_name><sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package><sys_policy/><sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope><sys_update_name>sc_category_0025f47a47ae191024e32782846d43b9</sys_update_name><sys_updated_by>steven.ly</sys_updated_by><sys_updated_on>2022-10-18 15:26:44</sys_updated_on><title>Evidence</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=0025f47a47ae191024e32782846d43b9"/></record_update>]]></payload>
+        <payload_hash>-1431890370</payload_hash>
+        <record_name>Evidence</record_name>
+        <reverted_from/>
+        <source>aa320873472dd91024e32782846d4309</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-18 15:26:44</sys_created_on>
+        <sys_id>c225387a47ae191024e32782846d439e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183ebb44ae20000001</sys_recorded_at>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-18 15:26:44</sys_updated_on>
+        <type>Category</type>
+        <update_guid>0e25387ac0ae19103429fbe0f8cfd59d</update_guid>
+        <update_guid_history>0e25387ac0ae19103429fbe0f8cfd59d:-1431890370</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Evidence">cbe5fcba47ae191024e32782846d439e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>steven.ly</sys_created_by>
+        <sys_created_on>2022-10-18 15:30:05</sys_created_on>
+        <sys_db_object display_value="" name="sc_category">sc_category</sys_db_object>
+        <sys_id>26790045d5ab456889aa1dd6272e2949</sys_id>
+        <sys_metadata>0025f47a47ae191024e32782846d43b9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Evidence</sys_name>
+        <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+        <sys_scope_delete display_value="">4587fa99cc9544b09fbf217996537240</sys_scope_delete>
+        <sys_update_name>sc_category_0025f47a47ae191024e32782846d43b9</sys_update_name>
+        <sys_update_version display_value="sc_category_0025f47a47ae191024e32782846d43b9">c225387a47ae191024e32782846d439e</sys_update_version>
+        <sys_updated_by>steven.ly</sys_updated_by>
+        <sys_updated_on>2022-10-18 15:30:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

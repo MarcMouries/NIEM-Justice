@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="custody" label="Custody" language="en" table="sn_niem_j_custody">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>custody</element>
+            <help/>
+            <hint/>
+            <label>Custody</label>
+            <language>en</language>
+            <name>sn_niem_j_custody</name>
+            <plural>Custodies</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>steven.ly</sys_created_by>
+            <sys_created_on>2022-10-18 15:53:53</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Custody</sys_name>
+            <sys_package display_value="NIEM Justice" source="sn_niem_j">6febcae798211110fa9b73dfbe326e96</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NIEM Justice">6febcae798211110fa9b73dfbe326e96</sys_scope>
+            <sys_update_name>sys_documentation_sn_niem_j_custody_custody_en</sys_update_name>
+            <sys_updated_by>steven.ly</sys_updated_by>
+            <sys_updated_on>2022-10-18 15:53:53</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
